@@ -1,0 +1,28 @@
+ott 15 20:03:36 server1 sshd[68114]: error: maximum authentication attempts exceeded for user1 from 203.0.113.45 port 10894 ssh2
+ott 15 20:03:36 ssh-host sshd[68203]: error: maximum authentication attempts exceeded for backup from 172.16.0.2 port 61266 ssh2
+ott 15 20:03:36 ssh-host sshd[13285]: Failed password for invalid user svc_backup from 198.51.100.23 port 17396 ssh2
+ott 15 20:03:36 gateway sshd[70827]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:03:36 gateway sshd[45545]: Accepted password for oracle from 172.16.0.2 port 41623 ssh2
+ott 15 20:03:36 bastion sshd[5436]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:03:36 ssh-host sshd[99096]: error: maximum authentication attempts exceeded for oracle from 10.0.0.10 port 64140 ssh2
+ott 15 20:03:36 bastion sshd[92751]: error: maximum authentication attempts exceeded for admin from 203.0.113.45 port 52919 ssh2
+ott 15 20:03:36 gateway sshd[63412]: Invalid user test from 192.168.1.55 port 46107
+ott 15 20:03:36 gateway sshd[16518]: Connection closed by authenticating user test 10.0.0.10 port 60147 [preauth]
+ott 15 20:03:36 bastion sshd[15110]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=svc_backup
+ott 15 20:03:36 ssh-host sshd[90036]: Invalid user oracle from fe80::1ff:fe23:4567:890a port 59189
+ott 15 20:03:36 ssh-host sshd[60154]: Failed password for user1 from fe80::1ff:fe23:4567:890a port 27320 ssh2
+ott 15 20:03:36 bastion sshd[70488]: Failed password for admin from 10.0.0.10 port 57148 ssh2
+ott 15 20:03:36 gateway sshd[94807]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:03:36 edge01 sshd[64216]: Failed publickey for root from 2001:0db8:85a3::8a2e:0370:7334 port 7719 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:36 gateway sshd[57141]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=admin
+ott 15 20:03:36 gateway sshd[8164]: error: maximum authentication attempts exceeded for svc_backup from 10.0.0.10 port 38816 ssh2
+ott 15 20:03:36 edge01 sshd[46654]: Accepted password for backup from 10.0.0.10 port 17506 ssh2
+ott 15 20:03:36 server1 sshd[44063]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:03:36 server1 sshd[22175]: Did not receive identification string from 198.51.100.23
+ott 15 20:03:36 server1 sshd[87218]: Failed password for test from 2001:0db8:85a3::8a2e:0370:7334 port 49489 ssh2
+ott 15 20:03:36 bastion sshd[17908]: Failed publickey for backup from 198.51.100.23 port 59737 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:36 bastion sshd[6304]: error: maximum authentication attempts exceeded for deploy from fe80::1ff:fe23:4567:890a port 43132 ssh2
+ott 15 20:03:36 gateway sshd[9388]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:36 gateway sshd[9388]: pam_unix(sshd:auth): authentication failure; user=backup rhost=203.0.113.45
+ott 15 20:03:36 server1 sshd[13371]: Failed password for user1 from 10.0.0.10 port 60843 ssh2
+ott 15 20:03:36 server1 sshd[13371]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=10.0.0.10

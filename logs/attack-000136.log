@@ -1,0 +1,25 @@
+ott 15 20:01:24 server1 sshd[10083]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:01:24 gateway sshd[76688]: Invalid user backup from 2001:0db8:85a3::8a2e:0370:7334 port 21480
+ott 15 20:01:24 gateway sshd[76688]: pam_unix(sshd:auth): authentication failure; user=backup rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:01:24 ssh-host sshd[14570]: Invalid user test from 10.0.0.10 port 58766
+ott 15 20:01:24 gateway sshd[64418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=www-data
+ott 15 20:01:24 bastion sshd[31818]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=backup
+ott 15 20:01:24 gateway sshd[82872]: Accepted password for svc_backup from 198.51.100.23 port 29286 ssh2
+ott 15 20:01:24 gateway sshd[59104]: error: maximum authentication attempts exceeded for test from fe80::1ff:fe23:4567:890a port 35902 ssh2
+ott 15 20:01:24 server1 sshd[14582]: Invalid user guest from 2001:0db8:85a3::8a2e:0370:7334 port 11472
+ott 15 20:01:24 ssh-host sshd[24422]: Failed publickey for backup from 172.16.0.2 port 27354 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:24 ssh-host sshd[78247]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=svc_backup
+ott 15 20:01:24 bastion sshd[19659]: Disconnect from 10.1.1.8 port 60327: Too many authentication failures
+ott 15 20:01:24 ssh-host sshd[95180]: Failed publickey for user1 from 203.0.113.45 port 54032 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:24 ssh-host sshd[59637]: Invalid user oracle from 192.168.1.55 port 6007
+ott 15 20:01:24 edge01 sshd[7526]: Failed password for invalid user backup from 192.168.1.100 port 43583 ssh2
+ott 15 20:01:24 server1 sshd[77443]: Connection closed by authenticating user guest 192.168.1.100 port 31351 [preauth]
+ott 15 20:01:24 server1 sshd[77443]: pam_unix(sshd:auth): authentication failure; user=guest rhost=192.168.1.100
+ott 15 20:01:24 edge01 sshd[34468]: error: maximum authentication attempts exceeded for svc_backup from 10.1.1.8 port 63415 ssh2
+ott 15 20:01:24 ssh-host sshd[77579]: error: maximum authentication attempts exceeded for www-data from 10.0.0.10 port 40995 ssh2
+ott 15 20:01:24 bastion sshd[90880]: Accepted password for test from 203.0.113.45 port 9085 ssh2
+ott 15 20:01:24 server1 sshd[16256]: Did not receive identification string from 198.51.100.23
+ott 15 20:01:24 edge01 sshd[93021]: Connection closed by authenticating user user1 10.1.1.8 port 47765 [preauth]
+ott 15 20:01:24 edge01 sshd[18338]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:01:24 ssh-host sshd[15716]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=deploy
+ott 15 20:01:24 ssh-host sshd[15716]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=203.0.113.45

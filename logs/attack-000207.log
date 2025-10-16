@@ -1,0 +1,38 @@
+ott 15 20:03:29 bastion sshd[23229]: Invalid user root from 172.16.0.2 port 53523
+ott 15 20:03:29 edge01 sshd[64043]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 20:03:30 ssh-host sshd[23884]: Did not receive identification string from 198.51.100.23
+ott 15 20:03:30 bastion sshd[48777]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:30 edge01 sshd[26034]: Failed password for user1 from 198.51.100.23 port 59813 ssh2
+ott 15 20:03:30 gateway sshd[75829]: Accepted password for guest from 192.168.1.55 port 13144 ssh2
+ott 15 20:03:30 bastion sshd[78060]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:30 edge01 sshd[77433]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:30 ssh-host sshd[24439]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:30 server1 sshd[31215]: Accepted password for user1 from 203.0.113.45 port 44735 ssh2
+ott 15 20:03:30 ssh-host sshd[24197]: Connection closed by authenticating user root 2001:0db8:85a3::8a2e:0370:7334 port 22957 [preauth]
+ott 15 20:03:30 bastion sshd[64956]: Failed publickey for deploy from fe80::1ff:fe23:4567:890a port 24005 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:30 bastion sshd[64956]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=fe80::1ff:fe23:4567:890a
+ott 15 20:03:30 bastion sshd[66533]: Failed password for root from 192.168.1.55 port 45233 ssh2
+ott 15 20:03:30 gateway sshd[13998]: Failed password for root from 203.0.113.45 port 61768 ssh2
+ott 15 20:03:30 server1 sshd[23169]: Accepted password for test from 2001:0db8:85a3::8a2e:0370:7334 port 57492 ssh2
+ott 15 20:03:30 gateway sshd[18609]: Failed password for invalid user deploy from 10.0.0.10 port 43222 ssh2
+ott 15 20:03:30 bastion sshd[96349]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:03:30 bastion sshd[5509]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:03:30 bastion sshd[5509]: pam_unix(sshd:auth): authentication failure; user=admin rhost=10.0.0.10
+ott 15 20:03:30 bastion sshd[81610]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=svc_backup
+ott 15 20:03:30 bastion sshd[62932]: Failed publickey for root from 192.168.1.55 port 9475 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:30 gateway sshd[13366]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:30 edge01 sshd[6235]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=oracle
+ott 15 20:03:30 edge01 sshd[74201]: Did not receive identification string from 192.168.1.55
+ott 15 20:03:30 edge01 sshd[19062]: Disconnect from 192.168.1.55 port 61749: Too many authentication failures
+ott 15 20:03:30 edge01 sshd[19062]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=192.168.1.55
+ott 15 20:03:30 gateway sshd[4395]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=root
+ott 15 20:03:30 server1 sshd[8866]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=admin
+ott 15 20:03:30 server1 sshd[33008]: Disconnect from 192.168.1.100 port 45307: Too many authentication failures
+ott 15 20:03:30 gateway sshd[43093]: Failed publickey for test from 172.16.0.2 port 29182 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:30 bastion sshd[14502]: Accepted password for root from 2001:0db8:85a3::8a2e:0370:7334 port 10770 ssh2
+ott 15 20:03:30 edge01 sshd[82382]: Connection closed by authenticating user www-data 192.168.1.100 port 33887 [preauth]
+ott 15 20:03:30 gateway sshd[3341]: error: maximum authentication attempts exceeded for backup from 198.51.100.23 port 32677 ssh2
+ott 15 20:03:30 ssh-host sshd[26722]: Failed password for test from 192.168.1.55 port 6210 ssh2
+ott 15 20:03:30 edge01 sshd[92381]: Accepted password for oracle from 10.0.0.10 port 50550 ssh2
+ott 15 20:03:30 gateway sshd[58489]: Failed password for invalid user guest from 2001:0db8:85a3::8a2e:0370:7334 port 48889 ssh2
+ott 15 20:03:30 bastion sshd[36874]: Failed publickey for guest from fe80::1ff:fe23:4567:890a port 4474 ssh2: RSA SHA256:abcdef...

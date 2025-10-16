@@ -1,0 +1,7 @@
+ott 15 20:02:47 bastion sshd[59679]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=deploy
+ott 15 20:02:47 bastion sshd[38323]: Connection closed by authenticating user backup 10.1.1.8 port 30632 [preauth]
+ott 15 20:02:47 server1 sshd[44677]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:47 gateway sshd[71727]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 20:02:47 ssh-host sshd[7861]: Failed publickey for svc_backup from 172.16.0.2 port 2226 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:47 gateway sshd[62475]: Failed password for invalid user admin from 192.168.1.55 port 35764 ssh2
+ott 15 20:02:47 bastion sshd[54335]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key

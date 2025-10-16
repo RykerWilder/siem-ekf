@@ -1,0 +1,10 @@
+ott 15 19:58:49 gateway sshd[27105]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 19:58:49 bastion sshd[1203]: Failed password for admin from fe80::1ff:fe23:4567:890a port 56439 ssh2
+ott 15 19:58:49 gateway sshd[5178]: Disconnect from fe80::1ff:fe23:4567:890a port 3127: Too many authentication failures
+ott 15 19:58:49 gateway sshd[63146]: Accepted password for user1 from 192.168.1.55 port 30374 ssh2
+ott 15 19:58:49 bastion sshd[78562]: error: maximum authentication attempts exceeded for root from 10.0.0.10 port 45343 ssh2
+ott 15 19:58:49 ssh-host sshd[62081]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=oracle
+ott 15 19:58:49 gateway sshd[92504]: Failed password for invalid user root from 203.0.113.45 port 14416 ssh2
+ott 15 19:58:49 edge01 sshd[4839]: Accepted password for www-data from 198.51.100.23 port 38987 ssh2
+ott 15 19:58:49 edge01 sshd[1970]: Failed password for invalid user oracle from 192.168.1.100 port 19319 ssh2
+ott 15 19:58:49 edge01 sshd[1970]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=192.168.1.100

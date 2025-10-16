@@ -1,0 +1,22 @@
+ott 15 19:58:39 gateway sshd[9198]: Invalid user guest from 172.16.0.2 port 6808
+ott 15 19:58:39 edge01 sshd[35405]: error: maximum authentication attempts exceeded for www-data from 10.1.1.8 port 30727 ssh2
+ott 15 19:58:39 ssh-host sshd[88071]: Failed password for admin from 172.16.0.2 port 54642 ssh2
+ott 15 19:58:39 gateway sshd[48829]: Accepted password for root from 192.168.1.100 port 36119 ssh2
+ott 15 19:58:39 ssh-host sshd[76906]: error: maximum authentication attempts exceeded for backup from 198.51.100.23 port 40838 ssh2
+ott 15 19:58:39 ssh-host sshd[76906]: pam_unix(sshd:auth): authentication failure; user=backup rhost=198.51.100.23
+ott 15 19:58:39 gateway sshd[19504]: Failed password for invalid user oracle from 192.168.1.100 port 62552 ssh2
+ott 15 19:58:39 gateway sshd[72335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=www-data
+ott 15 19:58:39 gateway sshd[45170]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=guest
+ott 15 19:58:39 ssh-host sshd[7557]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=deploy
+ott 15 19:58:39 bastion sshd[31851]: Failed password for invalid user guest from 172.16.0.2 port 57726 ssh2
+ott 15 19:58:39 ssh-host sshd[12159]: Invalid user root from 192.168.1.100 port 38686
+ott 15 19:58:39 ssh-host sshd[91896]: Disconnect from 10.1.1.8 port 57787: Too many authentication failures
+ott 15 19:58:39 ssh-host sshd[96407]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:39 server1 sshd[82874]: reverse mapping checking getaddrinfo for 2001:0db8:85a3::8a2e:0370:7334 failed - possible spoofing?
+ott 15 19:58:39 gateway sshd[73601]: Invalid user test from fe80::1ff:fe23:4567:890a port 40717
+ott 15 19:58:39 edge01 sshd[22905]: Accepted password for test from 198.51.100.23 port 61691 ssh2
+ott 15 19:58:39 server1 sshd[27894]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 19:58:39 server1 sshd[27894]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=172.16.0.2
+ott 15 19:58:39 gateway sshd[78321]: Invalid user root from 10.0.0.10 port 65262
+ott 15 19:58:39 gateway sshd[78321]: pam_unix(sshd:auth): authentication failure; user=root rhost=10.0.0.10
+ott 15 19:58:39 edge01 sshd[59976]: error: maximum authentication attempts exceeded for guest from 172.16.0.2 port 53534 ssh2

@@ -1,0 +1,10 @@
+ott 15 20:03:50 edge01 sshd[57067]: Disconnect from 192.168.1.100 port 12973: Too many authentication failures
+ott 15 20:03:50 ssh-host sshd[89552]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=user1
+ott 15 20:03:50 ssh-host sshd[89552]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=10.0.0.10
+ott 15 20:03:50 edge01 sshd[74998]: Failed password for test from 10.1.1.8 port 62389 ssh2
+ott 15 20:03:50 server1 sshd[48002]: Failed publickey for oracle from 2001:0db8:85a3::8a2e:0370:7334 port 44567 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:50 ssh-host sshd[74563]: Did not receive identification string from 198.51.100.23
+ott 15 20:03:50 server1 sshd[6730]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:50 ssh-host sshd[61614]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=root
+ott 15 20:03:50 server1 sshd[76807]: Failed password for svc_backup from 172.16.0.2 port 50560 ssh2
+ott 15 20:03:50 server1 sshd[53700]: Did not receive identification string from 10.1.1.8

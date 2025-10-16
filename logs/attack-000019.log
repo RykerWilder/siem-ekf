@@ -1,0 +1,28 @@
+ott 15 19:57:46 edge01 sshd[2646]: Did not receive identification string from 192.168.1.55
+ott 15 19:57:46 edge01 sshd[2646]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=192.168.1.55
+ott 15 19:57:46 bastion sshd[71637]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 19:57:46 bastion sshd[82637]: Accepted password for root from 10.1.1.8 port 20598 ssh2
+ott 15 19:57:46 bastion sshd[73089]: Connection closed by authenticating user backup 203.0.113.45 port 12675 [preauth]
+ott 15 19:57:46 edge01 sshd[52950]: Connection closed by authenticating user user1 203.0.113.45 port 16615 [preauth]
+ott 15 19:57:46 server1 sshd[67504]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:57:46 server1 sshd[62196]: Failed publickey for deploy from 2001:0db8:85a3::8a2e:0370:7334 port 20758 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:46 server1 sshd[62196]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 19:57:46 ssh-host sshd[21358]: Invalid user guest from 10.0.0.10 port 37297
+ott 15 19:57:46 ssh-host sshd[90639]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=svc_backup
+ott 15 19:57:46 bastion sshd[47017]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:57:46 ssh-host sshd[53191]: Did not receive identification string from 172.16.0.2
+ott 15 19:57:46 bastion sshd[17529]: Failed password for invalid user oracle from 198.51.100.23 port 22069 ssh2
+ott 15 19:57:46 ssh-host sshd[79732]: Accepted password for test from 10.1.1.8 port 53524 ssh2
+ott 15 19:57:46 edge01 sshd[31007]: error: maximum authentication attempts exceeded for svc_backup from 198.51.100.23 port 54791 ssh2
+ott 15 19:57:46 bastion sshd[45740]: Failed password for invalid user www-data from fe80::1ff:fe23:4567:890a port 51485 ssh2
+ott 15 19:57:46 bastion sshd[45740]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=fe80::1ff:fe23:4567:890a
+ott 15 19:57:46 server1 sshd[95039]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:57:46 bastion sshd[64627]: error: maximum authentication attempts exceeded for oracle from 2001:0db8:85a3::8a2e:0370:7334 port 9395 ssh2
+ott 15 19:57:46 server1 sshd[4112]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:57:46 gateway sshd[13121]: Failed password for deploy from 172.16.0.2 port 44526 ssh2
+ott 15 19:57:46 edge01 sshd[57929]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 19:57:46 edge01 sshd[82713]: Failed publickey for test from 192.168.1.55 port 41136 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:46 gateway sshd[72315]: Did not receive identification string from 172.16.0.2
+ott 15 19:57:46 server1 sshd[66720]: Failed password for invalid user backup from 203.0.113.45 port 11508 ssh2
+ott 15 19:57:46 server1 sshd[95419]: Disconnect from 192.168.1.55 port 6131: Too many authentication failures
+ott 15 19:57:46 edge01 sshd[82881]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=svc_backup

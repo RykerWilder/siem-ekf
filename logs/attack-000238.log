@@ -1,0 +1,7 @@
+ott 15 20:04:26 edge01 sshd[93423]: Connection closed by authenticating user user1 192.168.1.100 port 37656 [preauth]
+ott 15 20:04:26 bastion sshd[27256]: Connection closed by authenticating user root 192.168.1.100 port 6381 [preauth]
+ott 15 20:04:26 gateway sshd[94240]: Failed password for deploy from 203.0.113.45 port 42408 ssh2
+ott 15 20:04:26 edge01 sshd[94504]: Failed publickey for svc_backup from 198.51.100.23 port 13572 ssh2: RSA SHA256:abcdef...
+ott 15 20:04:26 edge01 sshd[32758]: error: maximum authentication attempts exceeded for test from 203.0.113.45 port 27780 ssh2
+ott 15 20:04:26 edge01 sshd[43580]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:04:26 edge01 sshd[17190]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=www-data

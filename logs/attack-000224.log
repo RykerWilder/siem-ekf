@@ -1,0 +1,10 @@
+ott 15 20:04:01 gateway sshd[78087]: Failed password for invalid user oracle from 172.16.0.2 port 2549 ssh2
+ott 15 20:04:01 edge01 sshd[71959]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:04:01 gateway sshd[35765]: error: maximum authentication attempts exceeded for test from 198.51.100.23 port 47494 ssh2
+ott 15 20:04:01 gateway sshd[3582]: Disconnect from 10.1.1.8 port 51686: Too many authentication failures
+ott 15 20:04:01 ssh-host sshd[71189]: error: maximum authentication attempts exceeded for svc_backup from 10.1.1.8 port 22369 ssh2
+ott 15 20:04:01 edge01 sshd[47445]: Failed publickey for deploy from 172.16.0.2 port 3365 ssh2: RSA SHA256:abcdef...
+ott 15 20:04:01 ssh-host sshd[71529]: Disconnect from fe80::1ff:fe23:4567:890a port 29101: Too many authentication failures
+ott 15 20:04:01 gateway sshd[60846]: Connection closed by authenticating user admin 172.16.0.2 port 8898 [preauth]
+ott 15 20:04:01 server1 sshd[21086]: Accepted password for svc_backup from 192.168.1.55 port 8257 ssh2
+ott 15 20:04:01 bastion sshd[11847]: Failed publickey for backup from 10.0.0.10 port 3752 ssh2: RSA SHA256:abcdef...

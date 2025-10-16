@@ -1,0 +1,31 @@
+ott 15 20:03:11 edge01 sshd[3700]: error: maximum authentication attempts exceeded for root from fe80::1ff:fe23:4567:890a port 42142 ssh2
+ott 15 20:03:11 edge01 sshd[64569]: Connection closed by authenticating user admin fe80::1ff:fe23:4567:890a port 28010 [preauth]
+ott 15 20:03:11 ssh-host sshd[82861]: Failed password for deploy from fe80::1ff:fe23:4567:890a port 6234 ssh2
+ott 15 20:03:11 gateway sshd[71159]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:11 bastion sshd[54295]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:11 edge01 sshd[33443]: Disconnect from 192.168.1.55 port 2829: Too many authentication failures
+ott 15 20:03:11 ssh-host sshd[13545]: Disconnect from 172.16.0.2 port 14021: Too many authentication failures
+ott 15 20:03:11 bastion sshd[47691]: Did not receive identification string from 192.168.1.100
+ott 15 20:03:11 server1 sshd[64790]: error: maximum authentication attempts exceeded for user1 from 198.51.100.23 port 56314 ssh2
+ott 15 20:03:11 bastion sshd[30728]: Failed password for invalid user backup from 10.1.1.8 port 16259 ssh2
+ott 15 20:03:11 bastion sshd[52888]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:11 ssh-host sshd[31909]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:03:11 ssh-host sshd[58253]: Accepted password for deploy from 198.51.100.23 port 21098 ssh2
+ott 15 20:03:11 edge01 sshd[75181]: error: maximum authentication attempts exceeded for admin from 10.0.0.10 port 13822 ssh2
+ott 15 20:03:11 edge01 sshd[22655]: error: maximum authentication attempts exceeded for user1 from 10.1.1.8 port 15411 ssh2
+ott 15 20:03:11 gateway sshd[6458]: error: maximum authentication attempts exceeded for test from 172.16.0.2 port 9724 ssh2
+ott 15 20:03:11 ssh-host sshd[45169]: Connection closed by authenticating user admin 203.0.113.45 port 1162 [preauth]
+ott 15 20:03:11 bastion sshd[58997]: Accepted password for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 8490 ssh2
+ott 15 20:03:11 ssh-host sshd[23965]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:11 ssh-host sshd[93100]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 36480: Too many authentication failures
+ott 15 20:03:11 server1 sshd[29118]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=svc_backup
+ott 15 20:03:11 edge01 sshd[64901]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:03:11 bastion sshd[57953]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:11 gateway sshd[24580]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:11 ssh-host sshd[49098]: Failed publickey for deploy from fe80::1ff:fe23:4567:890a port 18170 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:11 bastion sshd[35861]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=oracle
+ott 15 20:03:11 server1 sshd[32729]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=admin
+ott 15 20:03:11 server1 sshd[32729]: pam_unix(sshd:auth): authentication failure; user=admin rhost=10.1.1.8
+ott 15 20:03:11 gateway sshd[9919]: Failed publickey for www-data from 10.1.1.8 port 51036 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:11 ssh-host sshd[59999]: error: maximum authentication attempts exceeded for www-data from 192.168.1.55 port 45410 ssh2
+ott 15 20:03:11 edge01 sshd[65488]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key

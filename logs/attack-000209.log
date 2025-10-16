@@ -1,0 +1,20 @@
+ott 15 20:03:33 gateway sshd[33412]: Failed publickey for svc_backup from 192.168.1.100 port 33292 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:33 bastion sshd[27497]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:33 bastion sshd[27497]: pam_unix(sshd:auth): authentication failure; user=backup rhost=172.16.0.2
+ott 15 20:03:33 gateway sshd[44013]: Disconnect from 192.168.1.55 port 60228: Too many authentication failures
+ott 15 20:03:33 gateway sshd[91928]: Failed password for test from 10.0.0.10 port 58319 ssh2
+ott 15 20:03:33 ssh-host sshd[30380]: Accepted password for www-data from 10.0.0.10 port 65006 ssh2
+ott 15 20:03:33 ssh-host sshd[14243]: Invalid user guest from 192.168.1.100 port 43435
+ott 15 20:03:33 gateway sshd[61382]: Failed publickey for admin from 172.16.0.2 port 3744 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:33 bastion sshd[68399]: Failed password for svc_backup from 198.51.100.23 port 47956 ssh2
+ott 15 20:03:33 gateway sshd[12864]: Failed password for invalid user test from 192.168.1.55 port 15097 ssh2
+ott 15 20:03:33 ssh-host sshd[63447]: Failed password for invalid user oracle from 172.16.0.2 port 9226 ssh2
+ott 15 20:03:33 server1 sshd[37241]: error: maximum authentication attempts exceeded for oracle from fe80::1ff:fe23:4567:890a port 16870 ssh2
+ott 15 20:03:33 server1 sshd[22500]: Failed password for oracle from 192.168.1.55 port 26492 ssh2
+ott 15 20:03:33 gateway sshd[98126]: Disconnect from fe80::1ff:fe23:4567:890a port 31991: Too many authentication failures
+ott 15 20:03:33 bastion sshd[36683]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 7279: Too many authentication failures
+ott 15 20:03:33 bastion sshd[36683]: pam_unix(sshd:auth): authentication failure; user=guest rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:03:33 edge01 sshd[39741]: Connection closed by authenticating user root 172.16.0.2 port 51956 [preauth]
+ott 15 20:03:33 gateway sshd[61187]: Failed password for deploy from 172.16.0.2 port 12540 ssh2
+ott 15 20:03:33 bastion sshd[30020]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 20:03:33 bastion sshd[82998]: Failed password for user1 from 2001:0db8:85a3::8a2e:0370:7334 port 11963 ssh2

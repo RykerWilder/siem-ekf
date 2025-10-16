@@ -1,0 +1,13 @@
+ott 15 20:02:04 bastion sshd[45095]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 20:02:04 bastion sshd[72436]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 20:02:04 bastion sshd[31430]: Failed publickey for backup from 192.168.1.55 port 23852 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:04 ssh-host sshd[38881]: Did not receive identification string from 198.51.100.23
+ott 15 20:02:04 gateway sshd[87548]: Failed publickey for www-data from 192.168.1.100 port 17886 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:04 gateway sshd[81951]: Failed password for user1 from 198.51.100.23 port 3527 ssh2
+ott 15 20:02:04 edge01 sshd[79005]: Disconnect from 192.168.1.55 port 25365: Too many authentication failures
+ott 15 20:02:04 ssh-host sshd[61108]: Failed password for invalid user oracle from 203.0.113.45 port 28245 ssh2
+ott 15 20:02:04 gateway sshd[51976]: error: maximum authentication attempts exceeded for oracle from 192.168.1.100 port 50459 ssh2
+ott 15 20:02:04 ssh-host sshd[68580]: Connection closed by authenticating user test 198.51.100.23 port 12227 [preauth]
+ott 15 20:02:05 server1 sshd[60791]: Failed password for backup from 10.1.1.8 port 60304 ssh2
+ott 15 20:02:05 ssh-host sshd[94450]: Accepted password for root from 203.0.113.45 port 47386 ssh2
+ott 15 20:02:05 edge01 sshd[90302]: Failed password for invalid user backup from 198.51.100.23 port 28425 ssh2

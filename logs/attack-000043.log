@@ -1,0 +1,36 @@
+ott 15 19:58:35 ssh-host sshd[15989]: Failed publickey for deploy from 2001:0db8:85a3::8a2e:0370:7334 port 26162 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:35 edge01 sshd[13433]: Failed password for www-data from 198.51.100.23 port 42396 ssh2
+ott 15 19:58:35 bastion sshd[54557]: Did not receive identification string from 198.51.100.23
+ott 15 19:58:35 gateway sshd[61408]: Invalid user admin from 198.51.100.23 port 20384
+ott 15 19:58:35 edge01 sshd[94537]: Failed password for guest from 2001:0db8:85a3::8a2e:0370:7334 port 15079 ssh2
+ott 15 19:58:35 gateway sshd[28818]: error: maximum authentication attempts exceeded for deploy from 10.1.1.8 port 22543 ssh2
+ott 15 19:58:35 server1 sshd[49147]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:35 edge01 sshd[56578]: Did not receive identification string from 10.1.1.8
+ott 15 19:58:35 bastion sshd[72324]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 19:58:35 ssh-host sshd[84003]: Accepted password for admin from 172.16.0.2 port 36922 ssh2
+ott 15 19:58:35 server1 sshd[51696]: Invalid user oracle from 10.0.0.10 port 15626
+ott 15 19:58:35 server1 sshd[95135]: Failed publickey for user1 from 192.168.1.100 port 45964 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:35 server1 sshd[95135]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=192.168.1.100
+ott 15 19:58:35 edge01 sshd[52743]: Failed password for invalid user www-data from 192.168.1.100 port 23440 ssh2
+ott 15 19:58:35 bastion sshd[87267]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=deploy
+ott 15 19:58:35 bastion sshd[25332]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=backup
+ott 15 19:58:35 edge01 sshd[4075]: Failed publickey for www-data from 192.168.1.55 port 8096 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:35 edge01 sshd[27333]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:35 edge01 sshd[23609]: Failed password for invalid user admin from 10.0.0.10 port 47788 ssh2
+ott 15 19:58:35 bastion sshd[59143]: Did not receive identification string from 192.168.1.100
+ott 15 19:58:35 bastion sshd[36552]: Connection closed by authenticating user admin 2001:0db8:85a3::8a2e:0370:7334 port 48738 [preauth]
+ott 15 19:58:35 bastion sshd[36552]: pam_unix(sshd:auth): authentication failure; user=admin rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 19:58:35 edge01 sshd[92932]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:35 edge01 sshd[92932]: pam_unix(sshd:auth): authentication failure; user=backup rhost=fe80::1ff:fe23:4567:890a
+ott 15 19:58:35 ssh-host sshd[2805]: Accepted password for www-data from 198.51.100.23 port 24442 ssh2
+ott 15 19:58:35 gateway sshd[16643]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=www-data
+ott 15 19:58:35 gateway sshd[43897]: Accepted password for test from 10.1.1.8 port 64079 ssh2
+ott 15 19:58:35 bastion sshd[76089]: error: maximum authentication attempts exceeded for user1 from fe80::1ff:fe23:4567:890a port 47975 ssh2
+ott 15 19:58:35 bastion sshd[59144]: Failed publickey for guest from 192.168.1.55 port 15335 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:35 edge01 sshd[53535]: Failed publickey for admin from 203.0.113.45 port 28959 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:35 ssh-host sshd[61218]: Connection closed by authenticating user oracle 192.168.1.55 port 16880 [preauth]
+ott 15 19:58:35 server1 sshd[35019]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 32865: Too many authentication failures
+ott 15 19:58:35 bastion sshd[28680]: Failed password for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 40249 ssh2
+ott 15 19:58:35 bastion sshd[28680]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 19:58:35 ssh-host sshd[12600]: Failed publickey for oracle from 192.168.1.100 port 61421 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:35 ssh-host sshd[62973]: Failed publickey for deploy from fe80::1ff:fe23:4567:890a port 54364 ssh2: RSA SHA256:abcdef...

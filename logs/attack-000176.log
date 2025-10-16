@@ -1,0 +1,22 @@
+ott 15 20:02:35 gateway sshd[20429]: Did not receive identification string from 192.168.1.55
+ott 15 20:02:35 gateway sshd[20429]: pam_unix(sshd:auth): authentication failure; user=guest rhost=192.168.1.55
+ott 15 20:02:35 bastion sshd[46086]: Disconnect from 172.16.0.2 port 57980: Too many authentication failures
+ott 15 20:02:35 server1 sshd[84384]: Connection closed by authenticating user deploy 172.16.0.2 port 37824 [preauth]
+ott 15 20:02:35 bastion sshd[65726]: error: maximum authentication attempts exceeded for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 5607 ssh2
+ott 15 20:02:35 ssh-host sshd[10055]: Accepted password for svc_backup from 192.168.1.100 port 43915 ssh2
+ott 15 20:02:35 server1 sshd[76016]: Did not receive identification string from 198.51.100.23
+ott 15 20:02:35 ssh-host sshd[27394]: Accepted password for test from 192.168.1.100 port 40242 ssh2
+ott 15 20:02:35 gateway sshd[22216]: Failed publickey for root from 10.1.1.8 port 37309 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:35 bastion sshd[41323]: Connection closed by authenticating user backup 192.168.1.55 port 48491 [preauth]
+ott 15 20:02:35 bastion sshd[48174]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 20:02:35 bastion sshd[48174]: pam_unix(sshd:auth): authentication failure; user=test rhost=fe80::1ff:fe23:4567:890a
+ott 15 20:02:35 gateway sshd[98789]: error: maximum authentication attempts exceeded for guest from 198.51.100.23 port 19012 ssh2
+ott 15 20:02:35 server1 sshd[33040]: Failed password for user1 from 203.0.113.45 port 62562 ssh2
+ott 15 20:02:35 gateway sshd[87398]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:02:35 bastion sshd[21960]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:35 gateway sshd[61660]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=admin
+ott 15 20:02:35 gateway sshd[39542]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=oracle
+ott 15 20:02:35 server1 sshd[26743]: error: maximum authentication attempts exceeded for guest from 203.0.113.45 port 20969 ssh2
+ott 15 20:02:35 server1 sshd[81865]: Accepted password for guest from fe80::1ff:fe23:4567:890a port 43840 ssh2
+ott 15 20:02:35 gateway sshd[78872]: Accepted password for backup from 10.1.1.8 port 16206 ssh2
+ott 15 20:02:35 bastion sshd[30587]: error: maximum authentication attempts exceeded for guest from fe80::1ff:fe23:4567:890a port 25940 ssh2

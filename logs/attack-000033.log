@@ -1,0 +1,10 @@
+ott 15 19:58:15 bastion sshd[29336]: Accepted password for root from fe80::1ff:fe23:4567:890a port 65414 ssh2
+ott 15 19:58:15 gateway sshd[39087]: Failed password for invalid user deploy from 2001:0db8:85a3::8a2e:0370:7334 port 31637 ssh2
+ott 15 19:58:15 ssh-host sshd[6937]: Failed password for invalid user user1 from fe80::1ff:fe23:4567:890a port 49794 ssh2
+ott 15 19:58:15 gateway sshd[46531]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:15 edge01 sshd[43212]: Failed password for oracle from fe80::1ff:fe23:4567:890a port 43079 ssh2
+ott 15 19:58:15 edge01 sshd[82653]: Invalid user www-data from 172.16.0.2 port 51687
+ott 15 19:58:15 ssh-host sshd[78807]: Failed publickey for svc_backup from 198.51.100.23 port 14141 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:15 edge01 sshd[74339]: error: maximum authentication attempts exceeded for root from 192.168.1.100 port 7368 ssh2
+ott 15 19:58:15 edge01 sshd[33086]: Did not receive identification string from 198.51.100.23
+ott 15 19:58:15 ssh-host sshd[74295]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334

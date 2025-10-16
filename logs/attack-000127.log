@@ -1,0 +1,8 @@
+ott 15 20:01:09 edge01 sshd[46279]: Failed password for oracle from 203.0.113.45 port 45384 ssh2
+ott 15 20:01:09 edge01 sshd[53834]: Disconnect from 203.0.113.45 port 33681: Too many authentication failures
+ott 15 20:01:09 bastion sshd[36393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=svc_backup
+ott 15 20:01:09 bastion sshd[97381]: Failed password for admin from 192.168.1.55 port 40537 ssh2
+ott 15 20:01:09 server1 sshd[65560]: Failed publickey for deploy from 10.1.1.8 port 55094 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:09 edge01 sshd[21290]: error: maximum authentication attempts exceeded for test from 203.0.113.45 port 55450 ssh2
+ott 15 20:01:09 edge01 sshd[13258]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:01:09 gateway sshd[1793]: Failed password for guest from 172.16.0.2 port 27343 ssh2

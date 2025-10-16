@@ -1,0 +1,42 @@
+ott 15 20:01:41 ssh-host sshd[21037]: Failed password for invalid user user1 from 192.168.1.100 port 17099 ssh2
+ott 15 20:01:41 ssh-host sshd[31045]: Accepted password for user1 from 172.16.0.2 port 51569 ssh2
+ott 15 20:01:41 server1 sshd[61557]: Failed password for admin from 10.1.1.8 port 65244 ssh2
+ott 15 20:01:41 ssh-host sshd[24171]: Failed password for invalid user root from 192.168.1.55 port 56254 ssh2
+ott 15 20:01:41 ssh-host sshd[75293]: Accepted password for root from 192.168.1.55 port 18866 ssh2
+ott 15 20:01:41 edge01 sshd[63796]: Failed password for invalid user admin from 192.168.1.100 port 6669 ssh2
+ott 15 20:01:41 gateway sshd[96454]: Did not receive identification string from 192.168.1.100
+ott 15 20:01:41 gateway sshd[96454]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=192.168.1.100
+ott 15 20:01:41 server1 sshd[77289]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:01:41 gateway sshd[10868]: Did not receive identification string from 172.16.0.2
+ott 15 20:01:41 gateway sshd[51103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=oracle
+ott 15 20:01:41 ssh-host sshd[63333]: Disconnect from 172.16.0.2 port 42216: Too many authentication failures
+ott 15 20:01:41 ssh-host sshd[73266]: Invalid user test from 203.0.113.45 port 59807
+ott 15 20:01:41 gateway sshd[97978]: Did not receive identification string from 10.0.0.10
+ott 15 20:01:41 ssh-host sshd[99425]: Connection closed by authenticating user www-data 10.1.1.8 port 39766 [preauth]
+ott 15 20:01:42 ssh-host sshd[13830]: Failed password for invalid user svc_backup from 10.1.1.8 port 10421 ssh2
+ott 15 20:01:42 edge01 sshd[67483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=www-data
+ott 15 20:01:42 ssh-host sshd[38400]: Accepted password for guest from 10.0.0.10 port 35825 ssh2
+ott 15 20:01:42 server1 sshd[39342]: Did not receive identification string from 198.51.100.23
+ott 15 20:01:42 ssh-host sshd[87035]: Failed publickey for admin from 10.0.0.10 port 8306 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:42 ssh-host sshd[26614]: Failed publickey for oracle from 10.0.0.10 port 7636 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:42 server1 sshd[18762]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 20:01:42 edge01 sshd[24321]: Failed password for invalid user oracle from 192.168.1.55 port 54472 ssh2
+ott 15 20:01:42 bastion sshd[90870]: Disconnect from 198.51.100.23 port 27653: Too many authentication failures
+ott 15 20:01:42 bastion sshd[90870]: pam_unix(sshd:auth): authentication failure; user=guest rhost=198.51.100.23
+ott 15 20:01:42 gateway sshd[6583]: error: maximum authentication attempts exceeded for backup from 172.16.0.2 port 42049 ssh2
+ott 15 20:01:42 bastion sshd[52236]: Failed publickey for root from 192.168.1.100 port 42870 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:42 ssh-host sshd[34216]: Invalid user svc_backup from 192.168.1.55 port 3850
+ott 15 20:01:42 server1 sshd[95110]: Failed password for invalid user test from 10.1.1.8 port 55584 ssh2
+ott 15 20:01:42 bastion sshd[31825]: Failed password for backup from 192.168.1.100 port 63118 ssh2
+ott 15 20:01:42 gateway sshd[78975]: Accepted password for user1 from fe80::1ff:fe23:4567:890a port 42615 ssh2
+ott 15 20:01:42 gateway sshd[96433]: Invalid user root from fe80::1ff:fe23:4567:890a port 62865
+ott 15 20:01:42 gateway sshd[71236]: Failed password for guest from 172.16.0.2 port 2734 ssh2
+ott 15 20:01:42 bastion sshd[65953]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:01:42 bastion sshd[65953]: pam_unix(sshd:auth): authentication failure; user=root rhost=10.0.0.10
+ott 15 20:01:42 server1 sshd[59931]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:01:42 gateway sshd[12133]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:01:42 bastion sshd[49894]: Invalid user user1 from 172.16.0.2 port 26370
+ott 15 20:01:42 edge01 sshd[54868]: Disconnect from 203.0.113.45 port 3819: Too many authentication failures
+ott 15 20:01:42 gateway sshd[3589]: Invalid user oracle from 10.0.0.10 port 31355
+ott 15 20:01:42 edge01 sshd[25435]: Did not receive identification string from 10.1.1.8
+ott 15 20:01:42 bastion sshd[2810]: Failed publickey for backup from 192.168.1.55 port 48856 ssh2: RSA SHA256:abcdef...

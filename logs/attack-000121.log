@@ -1,0 +1,37 @@
+ott 15 20:00:56 edge01 sshd[48541]: Failed publickey for deploy from 192.168.1.100 port 11146 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:56 bastion sshd[44641]: Connection closed by authenticating user user1 198.51.100.23 port 23303 [preauth]
+ott 15 20:00:56 gateway sshd[42260]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:56 edge01 sshd[74714]: error: maximum authentication attempts exceeded for oracle from 192.168.1.55 port 29790 ssh2
+ott 15 20:00:56 gateway sshd[6065]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=oracle
+ott 15 20:00:56 gateway sshd[6065]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:00:56 server1 sshd[81158]: Did not receive identification string from 10.0.0.10
+ott 15 20:00:56 edge01 sshd[55250]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=root
+ott 15 20:00:56 gateway sshd[50943]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:56 gateway sshd[12015]: Failed publickey for backup from 203.0.113.45 port 44427 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:56 server1 sshd[97051]: Failed password for invalid user guest from 2001:0db8:85a3::8a2e:0370:7334 port 63850 ssh2
+ott 15 20:00:56 bastion sshd[79313]: Failed publickey for admin from 10.1.1.8 port 20921 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:56 bastion sshd[89938]: error: maximum authentication attempts exceeded for test from 10.0.0.10 port 50441 ssh2
+ott 15 20:00:56 bastion sshd[28665]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 20:00:56 gateway sshd[32873]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:00:56 gateway sshd[17778]: Did not receive identification string from 10.1.1.8
+ott 15 20:00:56 ssh-host sshd[60865]: Disconnect from 192.168.1.100 port 3343: Too many authentication failures
+ott 15 20:00:56 bastion sshd[85339]: Did not receive identification string from 203.0.113.45
+ott 15 20:00:56 bastion sshd[47956]: Disconnect from 203.0.113.45 port 29648: Too many authentication failures
+ott 15 20:00:56 ssh-host sshd[91437]: Failed password for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 41831 ssh2
+ott 15 20:00:56 ssh-host sshd[91437]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:00:56 server1 sshd[27758]: Accepted password for test from 10.1.1.8 port 54398 ssh2
+ott 15 20:00:56 ssh-host sshd[81992]: Connection closed by authenticating user oracle 198.51.100.23 port 27950 [preauth]
+ott 15 20:00:56 gateway sshd[59047]: Failed password for invalid user backup from 203.0.113.45 port 52540 ssh2
+ott 15 20:00:56 gateway sshd[39667]: error: maximum authentication attempts exceeded for user1 from 172.16.0.2 port 17590 ssh2
+ott 15 20:00:56 server1 sshd[96123]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:00:56 bastion sshd[94961]: Did not receive identification string from 192.168.1.100
+ott 15 20:00:56 gateway sshd[84656]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:00:56 server1 sshd[63286]: Disconnect from 203.0.113.45 port 18119: Too many authentication failures
+ott 15 20:00:56 server1 sshd[83129]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:56 bastion sshd[69127]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:56 edge01 sshd[39464]: Did not receive identification string from 192.168.1.55
+ott 15 20:00:56 gateway sshd[56907]: Connection closed by authenticating user deploy 192.168.1.100 port 40505 [preauth]
+ott 15 20:00:56 server1 sshd[70471]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:56 edge01 sshd[75530]: Invalid user www-data from 192.168.1.100 port 41154
+ott 15 20:00:56 server1 sshd[36135]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:00:57 edge01 sshd[85984]: Did not receive identification string from 10.0.0.10

@@ -1,0 +1,20 @@
+ott 15 20:02:38 ssh-host sshd[40813]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:38 ssh-host sshd[62402]: Failed password for backup from 198.51.100.23 port 4025 ssh2
+ott 15 20:02:38 server1 sshd[29986]: Disconnect from 192.168.1.55 port 63475: Too many authentication failures
+ott 15 20:02:38 ssh-host sshd[46505]: Disconnect from 198.51.100.23 port 1438: Too many authentication failures
+ott 15 20:02:38 server1 sshd[29345]: Invalid user root from 172.16.0.2 port 25922
+ott 15 20:02:38 server1 sshd[36621]: Disconnect from 10.0.0.10 port 41123: Too many authentication failures
+ott 15 20:02:38 server1 sshd[36621]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=10.0.0.10
+ott 15 20:02:38 ssh-host sshd[86568]: Failed publickey for guest from fe80::1ff:fe23:4567:890a port 12466 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:38 gateway sshd[22768]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=admin
+ott 15 20:02:38 server1 sshd[95894]: Connection closed by authenticating user backup 192.168.1.100 port 24010 [preauth]
+ott 15 20:02:38 bastion sshd[56927]: Invalid user svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 5155
+ott 15 20:02:39 gateway sshd[19174]: Accepted password for user1 from 203.0.113.45 port 7518 ssh2
+ott 15 20:02:39 server1 sshd[15990]: error: maximum authentication attempts exceeded for oracle from 10.0.0.10 port 34674 ssh2
+ott 15 20:02:39 server1 sshd[15990]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=10.0.0.10
+ott 15 20:02:39 edge01 sshd[69402]: Connection closed by authenticating user backup 172.16.0.2 port 29379 [preauth]
+ott 15 20:02:39 ssh-host sshd[97192]: Connection closed by authenticating user deploy 198.51.100.23 port 31963 [preauth]
+ott 15 20:02:39 edge01 sshd[71330]: Failed publickey for backup from 203.0.113.45 port 16978 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:39 edge01 sshd[56800]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=svc_backup
+ott 15 20:02:39 gateway sshd[97491]: Failed password for invalid user guest from 192.168.1.55 port 55516 ssh2
+ott 15 20:02:39 bastion sshd[41326]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=admin

@@ -1,0 +1,42 @@
+ott 15 18:51:42 ssh-host sshd[66116]: error: maximum authentication attempts exceeded for guest from 192.168.1.100 port 44897 ssh2
+ott 15 18:51:42 bastion sshd[34357]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=user1
+ott 15 18:51:42 gateway sshd[36756]: Failed publickey for admin from fe80::1ff:fe23:4567:890a port 10950 ssh2: RSA SHA256:abcdef...
+ott 15 18:51:42 server1 sshd[8071]: Accepted password for guest from 10.1.1.8 port 54446 ssh2
+ott 15 18:51:42 edge01 sshd[66652]: Accepted password for guest from 172.16.0.2 port 18936 ssh2
+ott 15 18:51:42 ssh-host sshd[10249]: Failed publickey for admin from 10.0.0.10 port 43705 ssh2: RSA SHA256:abcdef...
+ott 15 18:51:42 gateway sshd[85784]: Invalid user admin from fe80::1ff:fe23:4567:890a port 23051
+ott 15 18:51:42 edge01 sshd[67124]: Invalid user test from 172.16.0.2 port 31961
+ott 15 18:51:42 gateway sshd[53688]: Failed password for oracle from 2001:0db8:85a3::8a2e:0370:7334 port 15972 ssh2
+ott 15 18:51:42 bastion sshd[54832]: Invalid user backup from 203.0.113.45 port 63477
+ott 15 18:51:42 ssh-host sshd[41305]: Invalid user root from 192.168.1.55 port 42520
+ott 15 18:51:42 gateway sshd[16207]: Failed password for user1 from 192.168.1.55 port 19140 ssh2
+ott 15 18:51:42 bastion sshd[82733]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 18:51:42 gateway sshd[78253]: Connection closed by authenticating user www-data 192.168.1.100 port 36240 [preauth]
+ott 15 18:51:42 ssh-host sshd[79301]: Did not receive identification string from 192.168.1.55
+ott 15 18:51:42 server1 sshd[86991]: Invalid user www-data from 172.16.0.2 port 7869
+ott 15 18:51:42 ssh-host sshd[68988]: error: maximum authentication attempts exceeded for user1 from 192.168.1.100 port 34778 ssh2
+ott 15 18:51:42 ssh-host sshd[92854]: Failed password for guest from 198.51.100.23 port 14356 ssh2
+ott 15 18:51:42 bastion sshd[73125]: Failed password for admin from 198.51.100.23 port 13085 ssh2
+ott 15 18:51:42 edge01 sshd[42925]: Failed publickey for backup from 10.1.1.8 port 61657 ssh2: RSA SHA256:abcdef...
+ott 15 18:51:42 server1 sshd[87368]: Accepted password for backup from 2001:0db8:85a3::8a2e:0370:7334 port 35972 ssh2
+ott 15 18:51:42 gateway sshd[35735]: Invalid user www-data from 172.16.0.2 port 14986
+ott 15 18:51:42 bastion sshd[55123]: Failed publickey for oracle from 192.168.1.55 port 60526 ssh2: RSA SHA256:abcdef...
+ott 15 18:51:42 server1 sshd[87908]: Failed password for invalid user user1 from 203.0.113.45 port 57524 ssh2
+ott 15 18:51:42 server1 sshd[28095]: Disconnect from 10.1.1.8 port 28187: Too many authentication failures
+ott 15 18:51:42 ssh-host sshd[74215]: Connection closed by authenticating user user1 203.0.113.45 port 60783 [preauth]
+ott 15 18:51:43 bastion sshd[63854]: error: maximum authentication attempts exceeded for oracle from 10.1.1.8 port 64143 ssh2
+ott 15 18:51:43 ssh-host sshd[33379]: Failed publickey for svc_backup from 192.168.1.55 port 29813 ssh2: RSA SHA256:abcdef...
+ott 15 18:51:43 edge01 sshd[94703]: Failed password for backup from 203.0.113.45 port 36147 ssh2
+ott 15 19:57:27 server1 sshd[89913]: Failed password for oracle from 10.0.0.10 port 32541 ssh2
+ott 15 19:57:27 edge01 sshd[96828]: Failed password for deploy from fe80::1ff:fe23:4567:890a port 3287 ssh2
+ott 15 19:57:27 server1 sshd[66776]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 19:57:27 gateway sshd[7964]: error: maximum authentication attempts exceeded for user1 from 172.16.0.2 port 7637 ssh2
+ott 15 19:57:27 bastion sshd[5090]: Failed publickey for www-data from 10.0.0.10 port 29147 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:27 gateway sshd[14602]: Invalid user test from 192.168.1.100 port 36477
+ott 15 19:57:27 gateway sshd[8370]: Failed publickey for deploy from 192.168.1.55 port 8128 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:27 edge01 sshd[47778]: error: maximum authentication attempts exceeded for root from 192.168.1.100 port 30495 ssh2
+ott 15 19:57:27 ssh-host sshd[69056]: error: maximum authentication attempts exceeded for oracle from 192.168.1.100 port 12790 ssh2
+ott 15 19:57:27 gateway sshd[22237]: Failed password for invalid user admin from 2001:0db8:85a3::8a2e:0370:7334 port 57961 ssh2
+ott 15 19:57:27 server1 sshd[36668]: Failed publickey for user1 from 172.16.0.2 port 14546 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:27 bastion sshd[33151]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 19:57:27 bastion sshd[87346]: Accepted password for guest from 192.168.1.100 port 55810 ssh2

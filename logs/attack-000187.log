@@ -1,0 +1,9 @@
+ott 15 20:02:53 bastion sshd[57624]: Disconnect from 192.168.1.100 port 48109: Too many authentication failures
+ott 15 20:02:53 edge01 sshd[26314]: error: maximum authentication attempts exceeded for backup from fe80::1ff:fe23:4567:890a port 48338 ssh2
+ott 15 20:02:53 bastion sshd[74940]: Accepted password for user1 from 198.51.100.23 port 54537 ssh2
+ott 15 20:02:53 bastion sshd[64682]: error: maximum authentication attempts exceeded for guest from 192.168.1.100 port 24108 ssh2
+ott 15 20:02:53 ssh-host sshd[66459]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=deploy
+ott 15 20:02:53 bastion sshd[68052]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=root
+ott 15 20:02:53 gateway sshd[38429]: error: maximum authentication attempts exceeded for user1 from 198.51.100.23 port 21625 ssh2
+ott 15 20:02:53 server1 sshd[51273]: Failed password for invalid user oracle from 10.1.1.8 port 49079 ssh2
+ott 15 20:02:53 bastion sshd[36286]: error: maximum authentication attempts exceeded for svc_backup from 192.168.1.100 port 26172 ssh2

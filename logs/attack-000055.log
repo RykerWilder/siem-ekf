@@ -1,0 +1,9 @@
+ott 15 19:58:57 bastion sshd[67695]: Failed publickey for www-data from 10.0.0.10 port 8535 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:57 gateway sshd[24053]: Invalid user backup from 10.1.1.8 port 57468
+ott 15 19:58:57 gateway sshd[24053]: pam_unix(sshd:auth): authentication failure; user=backup rhost=10.1.1.8
+ott 15 19:58:57 ssh-host sshd[38237]: error: maximum authentication attempts exceeded for oracle from 172.16.0.2 port 50138 ssh2
+ott 15 19:58:57 bastion sshd[48984]: error: maximum authentication attempts exceeded for www-data from 198.51.100.23 port 1080 ssh2
+ott 15 19:58:57 ssh-host sshd[1139]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 19:58:57 ssh-host sshd[95937]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:57 bastion sshd[40815]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:57 edge01 sshd[47240]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?

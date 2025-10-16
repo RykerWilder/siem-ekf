@@ -1,0 +1,10 @@
+ott 15 20:01:14 bastion sshd[33494]: Accepted password for test from 2001:0db8:85a3::8a2e:0370:7334 port 30188 ssh2
+ott 15 20:01:14 gateway sshd[45870]: error: maximum authentication attempts exceeded for backup from 10.0.0.10 port 18367 ssh2
+ott 15 20:01:14 edge01 sshd[81322]: Failed password for admin from 10.0.0.10 port 32380 ssh2
+ott 15 20:01:14 ssh-host sshd[52660]: Failed password for guest from 2001:0db8:85a3::8a2e:0370:7334 port 44995 ssh2
+ott 15 20:01:14 server1 sshd[30032]: Connection closed by authenticating user backup fe80::1ff:fe23:4567:890a port 35294 [preauth]
+ott 15 20:01:14 bastion sshd[49262]: Did not receive identification string from 192.168.1.55
+ott 15 20:01:14 bastion sshd[65318]: error: maximum authentication attempts exceeded for admin from 198.51.100.23 port 43798 ssh2
+ott 15 20:01:14 bastion sshd[66431]: Invalid user admin from 198.51.100.23 port 14987
+ott 15 20:01:14 server1 sshd[46892]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=test
+ott 15 20:01:14 bastion sshd[13980]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?

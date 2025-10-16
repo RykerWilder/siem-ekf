@@ -1,0 +1,10 @@
+ott 15 20:02:14 edge01 sshd[53468]: Invalid user oracle from 203.0.113.45 port 3535
+ott 15 20:02:14 edge01 sshd[53468]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=203.0.113.45
+ott 15 20:02:14 server1 sshd[43776]: Did not receive identification string from 192.168.1.55
+ott 15 20:02:14 gateway sshd[47723]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:14 bastion sshd[25222]: Connection closed by authenticating user user1 172.16.0.2 port 51356 [preauth]
+ott 15 20:02:14 edge01 sshd[21600]: Did not receive identification string from 192.168.1.100
+ott 15 20:02:14 ssh-host sshd[99779]: Disconnect from 10.0.0.10 port 15953: Too many authentication failures
+ott 15 20:02:14 edge01 sshd[24085]: Disconnect from fe80::1ff:fe23:4567:890a port 56529: Too many authentication failures
+ott 15 20:02:14 edge01 sshd[12190]: Failed password for guest from 192.168.1.100 port 55272 ssh2
+ott 15 20:02:14 ssh-host sshd[19206]: Failed publickey for deploy from 192.168.1.55 port 16998 ssh2: RSA SHA256:abcdef...

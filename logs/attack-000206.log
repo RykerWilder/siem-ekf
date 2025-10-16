@@ -1,0 +1,8 @@
+ott 15 20:03:27 server1 sshd[23728]: Did not receive identification string from 192.168.1.55
+ott 15 20:03:27 bastion sshd[15245]: error: maximum authentication attempts exceeded for www-data from 198.51.100.23 port 4196 ssh2
+ott 15 20:03:27 ssh-host sshd[90583]: Failed publickey for oracle from 192.168.1.100 port 12971 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:27 server1 sshd[75555]: Failed password for test from fe80::1ff:fe23:4567:890a port 16631 ssh2
+ott 15 20:03:27 server1 sshd[30302]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:27 ssh-host sshd[54792]: Failed password for admin from 203.0.113.45 port 4346 ssh2
+ott 15 20:03:27 gateway sshd[65725]: Failed password for test from 10.0.0.10 port 61681 ssh2
+ott 15 20:03:27 server1 sshd[31201]: Failed password for invalid user oracle from fe80::1ff:fe23:4567:890a port 14796 ssh2

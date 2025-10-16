@@ -1,0 +1,30 @@
+ott 15 20:04:21 ssh-host sshd[14169]: error: maximum authentication attempts exceeded for backup from 172.16.0.2 port 58610 ssh2
+ott 15 20:04:21 ssh-host sshd[84277]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=admin
+ott 15 20:04:21 bastion sshd[64154]: Failed password for test from 192.168.1.100 port 63834 ssh2
+ott 15 20:04:21 server1 sshd[30393]: Invalid user www-data from 10.1.1.8 port 30129
+ott 15 20:04:21 server1 sshd[30393]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=10.1.1.8
+ott 15 20:04:21 gateway sshd[83858]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=deploy
+ott 15 20:04:21 server1 sshd[78691]: Failed password for guest from 203.0.113.45 port 54760 ssh2
+ott 15 20:04:21 gateway sshd[97272]: Disconnect from 198.51.100.23 port 52777: Too many authentication failures
+ott 15 20:04:21 edge01 sshd[3879]: Connection closed by authenticating user guest 192.168.1.100 port 31764 [preauth]
+ott 15 20:04:21 gateway sshd[4188]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=test
+ott 15 20:04:21 server1 sshd[84618]: Invalid user oracle from 192.168.1.55 port 39292
+ott 15 20:04:21 server1 sshd[84618]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=192.168.1.55
+ott 15 20:04:21 ssh-host sshd[3115]: Failed password for invalid user test from 198.51.100.23 port 22324 ssh2
+ott 15 20:04:21 ssh-host sshd[47783]: Failed password for test from 172.16.0.2 port 18241 ssh2
+ott 15 20:04:21 gateway sshd[62537]: Failed password for deploy from 172.16.0.2 port 43529 ssh2
+ott 15 20:04:21 edge01 sshd[67292]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:04:21 ssh-host sshd[34226]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:04:21 server1 sshd[96288]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:04:21 server1 sshd[96288]: pam_unix(sshd:auth): authentication failure; user=guest rhost=192.168.1.100
+ott 15 20:04:21 ssh-host sshd[8794]: Invalid user deploy from 203.0.113.45 port 9977
+ott 15 20:04:21 ssh-host sshd[8794]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=203.0.113.45
+ott 15 20:04:21 ssh-host sshd[19181]: Did not receive identification string from 172.16.0.2
+ott 15 20:04:21 edge01 sshd[14374]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:04:21 edge01 sshd[14374]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:04:21 edge01 sshd[67874]: Failed password for root from fe80::1ff:fe23:4567:890a port 3859 ssh2
+ott 15 20:04:21 bastion sshd[87523]: Accepted password for user1 from 203.0.113.45 port 48088 ssh2
+ott 15 20:04:21 bastion sshd[87523]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=203.0.113.45
+ott 15 20:04:21 gateway sshd[77639]: Invalid user admin from 172.16.0.2 port 47776
+ott 15 20:04:21 edge01 sshd[29549]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:04:21 edge01 sshd[14065]: Did not receive identification string from 198.51.100.23

@@ -1,0 +1,26 @@
+ott 15 19:59:13 ssh-host sshd[2134]: Connection closed by authenticating user deploy 172.16.0.2 port 23462 [preauth]
+ott 15 19:59:13 edge01 sshd[57367]: Disconnect from 203.0.113.45 port 21981: Too many authentication failures
+ott 15 19:59:13 edge01 sshd[57367]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=203.0.113.45
+ott 15 19:59:13 gateway sshd[84190]: Invalid user www-data from 2001:0db8:85a3::8a2e:0370:7334 port 20713
+ott 15 19:59:13 server1 sshd[36240]: Failed password for invalid user admin from 203.0.113.45 port 29511 ssh2
+ott 15 19:59:13 edge01 sshd[98488]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:13 ssh-host sshd[24575]: Failed password for invalid user svc_backup from 10.1.1.8 port 13279 ssh2
+ott 15 19:59:13 edge01 sshd[92745]: Connection closed by authenticating user admin 192.168.1.100 port 23825 [preauth]
+ott 15 19:59:13 edge01 sshd[78058]: Connection closed by authenticating user www-data 172.16.0.2 port 55267 [preauth]
+ott 15 19:59:13 gateway sshd[35575]: Invalid user admin from 10.1.1.8 port 1845
+ott 15 19:59:13 edge01 sshd[52969]: Connection closed by authenticating user user1 203.0.113.45 port 24390 [preauth]
+ott 15 19:59:13 bastion sshd[65631]: Failed publickey for oracle from 198.51.100.23 port 55254 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:13 ssh-host sshd[95263]: Failed password for svc_backup from 172.16.0.2 port 60879 ssh2
+ott 15 19:59:13 gateway sshd[79262]: Connection closed by authenticating user www-data 198.51.100.23 port 20784 [preauth]
+ott 15 19:59:13 ssh-host sshd[41069]: Invalid user user1 from 10.1.1.8 port 32380
+ott 15 19:59:13 ssh-host sshd[67198]: Did not receive identification string from 192.168.1.100
+ott 15 19:59:13 edge01 sshd[53216]: Accepted password for svc_backup from 10.1.1.8 port 41917 ssh2
+ott 15 19:59:13 server1 sshd[25971]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:13 edge01 sshd[96558]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=backup
+ott 15 19:59:13 edge01 sshd[51512]: Invalid user svc_backup from 10.0.0.10 port 65512
+ott 15 19:59:13 bastion sshd[52129]: Failed publickey for root from 172.16.0.2 port 19289 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:13 gateway sshd[71480]: Failed publickey for oracle from 192.168.1.100 port 25726 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:13 edge01 sshd[39380]: Invalid user backup from 203.0.113.45 port 48645
+ott 15 19:59:13 edge01 sshd[15734]: Failed password for invalid user guest from 192.168.1.100 port 10035 ssh2
+ott 15 19:59:13 bastion sshd[56405]: error: maximum authentication attempts exceeded for www-data from 10.1.1.8 port 17270 ssh2
+ott 15 19:59:13 edge01 sshd[22872]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=backup

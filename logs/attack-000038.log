@@ -1,0 +1,9 @@
+ott 15 19:58:26 server1 sshd[68688]: Connection closed by authenticating user deploy 172.16.0.2 port 22309 [preauth]
+ott 15 19:58:26 edge01 sshd[86352]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:26 edge01 sshd[32199]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:26 ssh-host sshd[30983]: Failed publickey for backup from 192.168.1.100 port 59887 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:26 edge01 sshd[33058]: Connection closed by authenticating user www-data 172.16.0.2 port 25138 [preauth]
+ott 15 19:58:26 ssh-host sshd[24896]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=test
+ott 15 19:58:26 gateway sshd[4089]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:26 gateway sshd[50646]: error: maximum authentication attempts exceeded for admin from 10.1.1.8 port 35469 ssh2
+ott 15 19:58:26 ssh-host sshd[50666]: Did not receive identification string from 172.16.0.2

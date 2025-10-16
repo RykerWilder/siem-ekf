@@ -1,0 +1,11 @@
+ott 15 20:03:09 server1 sshd[7276]: Did not receive identification string from 203.0.113.45
+ott 15 20:03:09 gateway sshd[95271]: Accepted password for test from 192.168.1.100 port 31893 ssh2
+ott 15 20:03:09 gateway sshd[64405]: Disconnect from 198.51.100.23 port 28893: Too many authentication failures
+ott 15 20:03:09 edge01 sshd[17825]: Accepted password for admin from 192.168.1.100 port 6806 ssh2
+ott 15 20:03:09 edge01 sshd[31596]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=backup
+ott 15 20:03:09 bastion sshd[99762]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:09 server1 sshd[67468]: Disconnect from 172.16.0.2 port 65328: Too many authentication failures
+ott 15 20:03:09 gateway sshd[60396]: Accepted password for user1 from 203.0.113.45 port 40684 ssh2
+ott 15 20:03:09 server1 sshd[57634]: Did not receive identification string from 198.51.100.23
+ott 15 20:03:09 bastion sshd[4412]: Accepted password for test from 172.16.0.2 port 13898 ssh2
+ott 15 20:03:09 gateway sshd[74147]: Invalid user guest from 192.168.1.55 port 39354

@@ -1,0 +1,38 @@
+ott 15 20:03:03 edge01 sshd[59807]: Accepted password for svc_backup from 192.168.1.55 port 58780 ssh2
+ott 15 20:03:03 ssh-host sshd[49267]: Failed publickey for root from 192.168.1.55 port 11616 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:03 gateway sshd[44451]: Invalid user svc_backup from 10.1.1.8 port 14721
+ott 15 20:03:03 bastion sshd[38999]: Invalid user svc_backup from 10.1.1.8 port 65477
+ott 15 20:03:03 gateway sshd[56129]: Failed password for invalid user test from 10.1.1.8 port 46782 ssh2
+ott 15 20:03:03 ssh-host sshd[26144]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:03 server1 sshd[31320]: Connection closed by authenticating user test 192.168.1.100 port 28845 [preauth]
+ott 15 20:03:03 server1 sshd[30039]: Connection closed by authenticating user guest 203.0.113.45 port 59508 [preauth]
+ott 15 20:03:03 gateway sshd[30620]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:03 edge01 sshd[33437]: Did not receive identification string from 172.16.0.2
+ott 15 20:03:03 bastion sshd[29567]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=user1
+ott 15 20:03:03 bastion sshd[90517]: Invalid user test from 10.1.1.8 port 41382
+ott 15 20:03:03 bastion sshd[63179]: Failed publickey for backup from 198.51.100.23 port 24477 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:03 bastion sshd[63179]: pam_unix(sshd:auth): authentication failure; user=backup rhost=198.51.100.23
+ott 15 20:03:03 gateway sshd[29040]: Connection closed by authenticating user oracle 172.16.0.2 port 34418 [preauth]
+ott 15 20:03:03 gateway sshd[29040]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=172.16.0.2
+ott 15 20:03:03 ssh-host sshd[97870]: Failed publickey for svc_backup from 10.1.1.8 port 46990 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:03 server1 sshd[66290]: error: maximum authentication attempts exceeded for svc_backup from 192.168.1.55 port 7592 ssh2
+ott 15 20:03:03 server1 sshd[28601]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 20:03:03 bastion sshd[78941]: Failed publickey for www-data from 10.1.1.8 port 28858 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:03 edge01 sshd[1523]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:03 server1 sshd[65528]: Connection closed by authenticating user admin 172.16.0.2 port 22003 [preauth]
+ott 15 20:03:03 edge01 sshd[14564]: Connection closed by authenticating user user1 192.168.1.55 port 5733 [preauth]
+ott 15 20:03:03 edge01 sshd[51235]: Failed publickey for svc_backup from 172.16.0.2 port 57029 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:03 ssh-host sshd[65418]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:03 ssh-host sshd[47029]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:03:03 server1 sshd[23612]: Invalid user backup from 192.168.1.100 port 27105
+ott 15 20:03:03 ssh-host sshd[95854]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=www-data
+ott 15 20:03:03 ssh-host sshd[95854]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:03:03 server1 sshd[44216]: error: maximum authentication attempts exceeded for svc_backup from 10.0.0.10 port 6489 ssh2
+ott 15 20:03:03 server1 sshd[59492]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 20:03:03 server1 sshd[59492]: pam_unix(sshd:auth): authentication failure; user=root rhost=172.16.0.2
+ott 15 20:03:03 edge01 sshd[27864]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:03 gateway sshd[13831]: Failed password for invalid user deploy from fe80::1ff:fe23:4567:890a port 41926 ssh2
+ott 15 20:03:03 ssh-host sshd[17079]: Did not receive identification string from 10.1.1.8
+ott 15 20:03:03 bastion sshd[97065]: error: maximum authentication attempts exceeded for deploy from 198.51.100.23 port 11929 ssh2
+ott 15 20:03:03 edge01 sshd[24140]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 20:03:03 edge01 sshd[14121]: Failed password for user1 from 192.168.1.100 port 26174 ssh2

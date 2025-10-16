@@ -1,0 +1,21 @@
+ott 15 20:02:46 server1 sshd[97228]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:46 edge01 sshd[28699]: Invalid user www-data from 198.51.100.23 port 8351
+ott 15 20:02:46 edge01 sshd[28699]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=198.51.100.23
+ott 15 20:02:46 server1 sshd[72447]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 20:02:46 bastion sshd[8196]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:02:46 edge01 sshd[82768]: Did not receive identification string from 192.168.1.55
+ott 15 20:02:46 edge01 sshd[88435]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:02:46 server1 sshd[60999]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:46 server1 sshd[1880]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:02:46 gateway sshd[44970]: error: maximum authentication attempts exceeded for deploy from fe80::1ff:fe23:4567:890a port 65405 ssh2
+ott 15 20:02:46 ssh-host sshd[31213]: Disconnect from 198.51.100.23 port 29331: Too many authentication failures
+ott 15 20:02:46 ssh-host sshd[31213]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=198.51.100.23
+ott 15 20:02:46 bastion sshd[48849]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:46 server1 sshd[54176]: Failed publickey for root from 172.16.0.2 port 22960 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:46 server1 sshd[24115]: Did not receive identification string from 10.0.0.10
+ott 15 20:02:46 ssh-host sshd[55757]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 20:02:46 server1 sshd[55141]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:46 gateway sshd[53585]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:02:46 edge01 sshd[52576]: Accepted password for user1 from 203.0.113.45 port 34777 ssh2
+ott 15 20:02:46 gateway sshd[34775]: Invalid user oracle from 10.0.0.10 port 1108
+ott 15 20:02:46 edge01 sshd[18592]: Failed password for oracle from 10.1.1.8 port 50480 ssh2

@@ -1,0 +1,24 @@
+ott 15 20:03:12 bastion sshd[13930]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:12 bastion sshd[13930]: pam_unix(sshd:auth): authentication failure; user=root rhost=172.16.0.2
+ott 15 20:03:12 edge01 sshd[20082]: error: maximum authentication attempts exceeded for guest from 192.168.1.55 port 44826 ssh2
+ott 15 20:03:12 server1 sshd[32851]: Accepted password for admin from 10.0.0.10 port 38656 ssh2
+ott 15 20:03:12 server1 sshd[76089]: Failed publickey for test from 192.168.1.100 port 16537 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:12 ssh-host sshd[50584]: Disconnect from 10.0.0.10 port 6864: Too many authentication failures
+ott 15 20:03:12 gateway sshd[97975]: Failed password for test from fe80::1ff:fe23:4567:890a port 46016 ssh2
+ott 15 20:03:12 gateway sshd[40087]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:03:12 edge01 sshd[74901]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:12 server1 sshd[60342]: Connection closed by authenticating user admin 203.0.113.45 port 19674 [preauth]
+ott 15 20:03:12 bastion sshd[50235]: Failed publickey for root from 10.1.1.8 port 33184 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:12 server1 sshd[86867]: Accepted password for user1 from 172.16.0.2 port 33090 ssh2
+ott 15 20:03:12 server1 sshd[75524]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:12 edge01 sshd[87613]: Disconnect from 203.0.113.45 port 50102: Too many authentication failures
+ott 15 20:03:12 server1 sshd[10878]: Failed password for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 62075 ssh2
+ott 15 20:03:12 edge01 sshd[32431]: Accepted password for deploy from 192.168.1.100 port 35040 ssh2
+ott 15 20:03:12 edge01 sshd[98952]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:12 server1 sshd[85401]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:03:12 bastion sshd[14241]: Failed password for guest from 198.51.100.23 port 2419 ssh2
+ott 15 20:03:12 server1 sshd[42451]: Failed password for invalid user guest from 10.1.1.8 port 5368 ssh2
+ott 15 20:03:13 gateway sshd[2709]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 62643: Too many authentication failures
+ott 15 20:03:13 server1 sshd[17764]: Failed password for invalid user admin from 10.1.1.8 port 61897 ssh2
+ott 15 20:03:13 bastion sshd[80268]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=admin
+ott 15 20:03:13 ssh-host sshd[98596]: Failed password for backup from fe80::1ff:fe23:4567:890a port 31000 ssh2

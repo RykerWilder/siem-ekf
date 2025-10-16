@@ -1,0 +1,6 @@
+ott 15 20:01:19 bastion sshd[38769]: Failed password for test from 198.51.100.23 port 44801 ssh2
+ott 15 20:01:19 gateway sshd[76688]: Did not receive identification string from 192.168.1.100
+ott 15 20:01:19 ssh-host sshd[67788]: Connection closed by authenticating user guest 10.0.0.10 port 30169 [preauth]
+ott 15 20:01:19 ssh-host sshd[67788]: pam_unix(sshd:auth): authentication failure; user=guest rhost=10.0.0.10
+ott 15 20:01:19 gateway sshd[91191]: Failed password for deploy from fe80::1ff:fe23:4567:890a port 25396 ssh2
+ott 15 20:01:19 ssh-host sshd[33424]: Failed publickey for backup from 198.51.100.23 port 61378 ssh2: RSA SHA256:abcdef...

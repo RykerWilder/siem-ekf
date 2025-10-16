@@ -1,0 +1,38 @@
+ott 15 20:00:35 ssh-host sshd[26794]: Disconnect from 10.0.0.10 port 4050: Too many authentication failures
+ott 15 20:00:35 gateway sshd[86069]: Invalid user root from 10.1.1.8 port 9906
+ott 15 20:00:35 gateway sshd[34588]: Accepted password for root from 198.51.100.23 port 41042 ssh2
+ott 15 20:00:35 server1 sshd[89588]: Failed password for invalid user test from 192.168.1.55 port 17011 ssh2
+ott 15 20:00:35 server1 sshd[89588]: pam_unix(sshd:auth): authentication failure; user=test rhost=192.168.1.55
+ott 15 20:00:35 ssh-host sshd[79560]: Did not receive identification string from 172.16.0.2
+ott 15 20:00:35 server1 sshd[25536]: Invalid user guest from 192.168.1.55 port 57705
+ott 15 20:00:35 ssh-host sshd[33542]: Failed publickey for admin from 10.0.0.10 port 56855 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:35 gateway sshd[14425]: Failed password for test from 10.0.0.10 port 48169 ssh2
+ott 15 20:00:35 ssh-host sshd[78275]: Invalid user root from 10.1.1.8 port 58867
+ott 15 20:00:35 bastion sshd[84545]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:35 bastion sshd[67090]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=guest
+ott 15 20:00:35 ssh-host sshd[86811]: Invalid user backup from fe80::1ff:fe23:4567:890a port 29332
+ott 15 20:00:35 gateway sshd[42260]: Accepted password for test from 172.16.0.2 port 24905 ssh2
+ott 15 20:00:35 gateway sshd[75877]: Connection closed by authenticating user deploy 10.1.1.8 port 17161 [preauth]
+ott 15 20:00:35 gateway sshd[14891]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=svc_backup
+ott 15 20:00:35 ssh-host sshd[2988]: error: maximum authentication attempts exceeded for admin from 10.0.0.10 port 22077 ssh2
+ott 15 20:00:35 gateway sshd[14118]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:00:35 bastion sshd[9052]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:35 bastion sshd[9052]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=203.0.113.45
+ott 15 20:00:35 edge01 sshd[42526]: Accepted password for root from 172.16.0.2 port 22054 ssh2
+ott 15 20:00:35 ssh-host sshd[43928]: Failed password for invalid user backup from 10.1.1.8 port 40022 ssh2
+ott 15 20:00:35 ssh-host sshd[40268]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:00:35 server1 sshd[47113]: Failed password for backup from 172.16.0.2 port 17036 ssh2
+ott 15 20:00:35 server1 sshd[26328]: error: maximum authentication attempts exceeded for backup from 192.168.1.55 port 47491 ssh2
+ott 15 20:00:35 server1 sshd[29005]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:00:35 gateway sshd[98206]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=guest
+ott 15 20:00:35 ssh-host sshd[17648]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 20:00:35 server1 sshd[10510]: Failed publickey for deploy from 198.51.100.23 port 40042 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:35 edge01 sshd[28666]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=www-data
+ott 15 20:00:35 server1 sshd[87645]: Failed password for invalid user user1 from 192.168.1.100 port 31585 ssh2
+ott 15 20:00:35 edge01 sshd[46957]: Disconnect from fe80::1ff:fe23:4567:890a port 14699: Too many authentication failures
+ott 15 20:00:35 edge01 sshd[54658]: Failed password for invalid user oracle from 2001:0db8:85a3::8a2e:0370:7334 port 21033 ssh2
+ott 15 20:00:35 server1 sshd[95448]: error: maximum authentication attempts exceeded for deploy from 192.168.1.55 port 44697 ssh2
+ott 15 20:00:35 bastion sshd[46420]: reverse mapping checking getaddrinfo for 2001:0db8:85a3::8a2e:0370:7334 failed - possible spoofing?
+ott 15 20:00:35 server1 sshd[31999]: Failed password for invalid user backup from 10.1.1.8 port 56894 ssh2
+ott 15 20:00:35 server1 sshd[10831]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:00:35 ssh-host sshd[40696]: Failed publickey for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 49554 ssh2: RSA SHA256:abcdef...

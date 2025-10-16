@@ -1,0 +1,6 @@
+ott 15 20:03:37 server1 sshd[35776]: Did not receive identification string from 172.16.0.2
+ott 15 20:03:37 ssh-host sshd[13377]: Connection closed by authenticating user guest 2001:0db8:85a3::8a2e:0370:7334 port 41753 [preauth]
+ott 15 20:03:37 edge01 sshd[94468]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=backup
+ott 15 20:03:37 ssh-host sshd[17718]: Disconnect from 192.168.1.55 port 34995: Too many authentication failures
+ott 15 20:03:37 server1 sshd[6653]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=svc_backup
+ott 15 20:03:37 gateway sshd[77106]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key

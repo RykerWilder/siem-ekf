@@ -1,0 +1,12 @@
+ott 15 20:04:10 server1 sshd[71538]: Accepted password for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 1146 ssh2
+ott 15 20:04:10 gateway sshd[17017]: Failed publickey for oracle from 10.1.1.8 port 21146 ssh2: RSA SHA256:abcdef...
+ott 15 20:04:10 edge01 sshd[41609]: Invalid user guest from 2001:0db8:85a3::8a2e:0370:7334 port 7471
+ott 15 20:04:10 edge01 sshd[91700]: Failed password for invalid user admin from 198.51.100.23 port 3464 ssh2
+ott 15 20:04:10 ssh-host sshd[76660]: Connection closed by authenticating user user1 10.0.0.10 port 30611 [preauth]
+ott 15 20:04:10 edge01 sshd[90809]: Failed password for admin from 198.51.100.23 port 62082 ssh2
+ott 15 20:04:10 edge01 sshd[13551]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:04:10 bastion sshd[29834]: Connection closed by authenticating user svc_backup fe80::1ff:fe23:4567:890a port 50944 [preauth]
+ott 15 20:04:10 server1 sshd[14874]: Failed password for svc_backup from fe80::1ff:fe23:4567:890a port 28085 ssh2
+ott 15 20:04:10 gateway sshd[5850]: Disconnect from 198.51.100.23 port 33154: Too many authentication failures
+ott 15 20:04:10 ssh-host sshd[20641]: Connection closed by authenticating user test 2001:0db8:85a3::8a2e:0370:7334 port 45491 [preauth]
+ott 15 20:04:10 edge01 sshd[7958]: Invalid user svc_backup from fe80::1ff:fe23:4567:890a port 4072

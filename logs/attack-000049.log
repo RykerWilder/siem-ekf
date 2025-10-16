@@ -1,0 +1,10 @@
+ott 15 19:58:48 server1 sshd[29491]: Invalid user admin from 203.0.113.45 port 5646
+ott 15 19:58:48 edge01 sshd[25562]: Invalid user deploy from 2001:0db8:85a3::8a2e:0370:7334 port 32541
+ott 15 19:58:48 bastion sshd[58911]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 19:58:48 server1 sshd[9341]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 19:58:48 ssh-host sshd[7306]: Accepted password for oracle from 192.168.1.55 port 40951 ssh2
+ott 15 19:58:48 edge01 sshd[69860]: Invalid user www-data from 192.168.1.100 port 36735
+ott 15 19:58:48 bastion sshd[72205]: Connection closed by authenticating user test 192.168.1.100 port 10289 [preauth]
+ott 15 19:58:48 gateway sshd[15652]: Failed password for invalid user deploy from 198.51.100.23 port 47035 ssh2
+ott 15 19:58:48 server1 sshd[83174]: Disconnect from 10.1.1.8 port 59311: Too many authentication failures
+ott 15 19:58:48 bastion sshd[69713]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?

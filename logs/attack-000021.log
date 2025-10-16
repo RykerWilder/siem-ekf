@@ -1,0 +1,20 @@
+ott 15 19:57:50 bastion sshd[44874]: Failed password for invalid user user1 from 198.51.100.23 port 23867 ssh2
+ott 15 19:57:50 ssh-host sshd[32055]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 19:57:50 gateway sshd[50424]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 19:57:50 gateway sshd[50424]: pam_unix(sshd:auth): authentication failure; user=guest rhost=198.51.100.23
+ott 15 19:57:50 edge01 sshd[21730]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=admin
+ott 15 19:57:50 ssh-host sshd[33967]: error: maximum authentication attempts exceeded for guest from 10.0.0.10 port 41398 ssh2
+ott 15 19:57:51 edge01 sshd[39531]: Invalid user www-data from 192.168.1.55 port 32845
+ott 15 19:57:51 server1 sshd[83988]: Invalid user root from fe80::1ff:fe23:4567:890a port 45633
+ott 15 19:57:51 server1 sshd[18001]: Failed password for svc_backup from 192.168.1.100 port 45970 ssh2
+ott 15 19:57:51 bastion sshd[13001]: error: maximum authentication attempts exceeded for deploy from 10.1.1.8 port 8036 ssh2
+ott 15 19:57:51 server1 sshd[5262]: Invalid user user1 from 2001:0db8:85a3::8a2e:0370:7334 port 14157
+ott 15 19:57:51 gateway sshd[42968]: Failed password for invalid user user1 from 172.16.0.2 port 27164 ssh2
+ott 15 19:57:51 bastion sshd[29011]: error: maximum authentication attempts exceeded for test from 10.0.0.10 port 14742 ssh2
+ott 15 19:57:51 server1 sshd[89061]: error: maximum authentication attempts exceeded for oracle from fe80::1ff:fe23:4567:890a port 52037 ssh2
+ott 15 19:57:51 server1 sshd[89061]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=fe80::1ff:fe23:4567:890a
+ott 15 19:57:51 ssh-host sshd[52035]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 19:57:51 bastion sshd[41870]: Disconnect from 192.168.1.100 port 3452: Too many authentication failures
+ott 15 19:57:51 bastion sshd[41870]: pam_unix(sshd:auth): authentication failure; user=backup rhost=192.168.1.100
+ott 15 19:57:51 server1 sshd[19930]: Connection closed by authenticating user oracle 10.1.1.8 port 65241 [preauth]
+ott 15 19:57:51 bastion sshd[47039]: Did not receive identification string from 192.168.1.100

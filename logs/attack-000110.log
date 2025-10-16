@@ -1,0 +1,37 @@
+ott 15 20:00:36 server1 sshd[75362]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:00:36 server1 sshd[71652]: Failed publickey for svc_backup from 192.168.1.100 port 15752 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:36 bastion sshd[92735]: error: maximum authentication attempts exceeded for oracle from 2001:0db8:85a3::8a2e:0370:7334 port 20063 ssh2
+ott 15 20:00:36 ssh-host sshd[53049]: Invalid user deploy from 2001:0db8:85a3::8a2e:0370:7334 port 40290
+ott 15 20:00:36 bastion sshd[42174]: error: maximum authentication attempts exceeded for test from 192.168.1.100 port 42002 ssh2
+ott 15 20:00:36 server1 sshd[73528]: Accepted password for deploy from 10.0.0.10 port 7893 ssh2
+ott 15 20:00:36 server1 sshd[73528]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=10.0.0.10
+ott 15 20:00:36 gateway sshd[3890]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:36 ssh-host sshd[16235]: Failed publickey for oracle from 192.168.1.55 port 21138 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:36 server1 sshd[39208]: Connection closed by authenticating user root 198.51.100.23 port 54404 [preauth]
+ott 15 20:00:36 server1 sshd[86980]: Invalid user deploy from 10.1.1.8 port 55423
+ott 15 20:00:36 ssh-host sshd[99920]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=user1
+ott 15 20:00:36 bastion sshd[19959]: Disconnect from fe80::1ff:fe23:4567:890a port 15674: Too many authentication failures
+ott 15 20:00:36 server1 sshd[37720]: Disconnect from 172.16.0.2 port 59259: Too many authentication failures
+ott 15 20:00:36 server1 sshd[37720]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=172.16.0.2
+ott 15 20:00:36 bastion sshd[56406]: error: maximum authentication attempts exceeded for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 64029 ssh2
+ott 15 20:00:36 ssh-host sshd[49612]: Failed publickey for test from 10.0.0.10 port 35644 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:36 ssh-host sshd[99626]: Failed publickey for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 52206 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:36 ssh-host sshd[99626]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:00:36 bastion sshd[65197]: Failed password for invalid user user1 from 198.51.100.23 port 6663 ssh2
+ott 15 20:00:36 bastion sshd[54127]: Disconnect from 10.0.0.10 port 42294: Too many authentication failures
+ott 15 20:00:36 edge01 sshd[53213]: Connection closed by authenticating user test 10.0.0.10 port 64498 [preauth]
+ott 15 20:00:36 server1 sshd[14548]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 20:00:36 ssh-host sshd[21162]: Invalid user user1 from fe80::1ff:fe23:4567:890a port 43294
+ott 15 20:00:36 gateway sshd[83273]: Did not receive identification string from 10.0.0.10
+ott 15 20:00:36 ssh-host sshd[54808]: Disconnect from fe80::1ff:fe23:4567:890a port 47510: Too many authentication failures
+ott 15 20:00:36 ssh-host sshd[1421]: Invalid user root from 203.0.113.45 port 6559
+ott 15 20:00:36 ssh-host sshd[1421]: pam_unix(sshd:auth): authentication failure; user=root rhost=203.0.113.45
+ott 15 20:00:37 gateway sshd[84624]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:00:37 gateway sshd[92245]: Did not receive identification string from 198.51.100.23
+ott 15 20:00:37 bastion sshd[34554]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=admin
+ott 15 20:00:37 server1 sshd[38764]: Did not receive identification string from 172.16.0.2
+ott 15 20:00:37 edge01 sshd[22782]: error: maximum authentication attempts exceeded for test from 192.168.1.55 port 59091 ssh2
+ott 15 20:00:37 ssh-host sshd[66101]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:00:37 bastion sshd[14522]: Failed publickey for svc_backup from 10.1.1.8 port 58710 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:37 bastion sshd[88513]: Connection closed by authenticating user guest 10.1.1.8 port 43977 [preauth]
+ott 15 20:00:37 gateway sshd[65305]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key

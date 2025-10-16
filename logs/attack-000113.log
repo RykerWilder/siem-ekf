@@ -1,0 +1,36 @@
+ott 15 20:00:42 server1 sshd[88276]: Failed publickey for user1 from 192.168.1.55 port 24693 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:42 gateway sshd[18943]: Invalid user deploy from 192.168.1.100 port 7377
+ott 15 20:00:42 ssh-host sshd[8436]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=test
+ott 15 20:00:42 server1 sshd[65934]: Failed password for invalid user admin from 192.168.1.55 port 44072 ssh2
+ott 15 20:00:42 gateway sshd[79108]: Disconnect from 172.16.0.2 port 40740: Too many authentication failures
+ott 15 20:00:42 gateway sshd[42947]: Failed publickey for www-data from fe80::1ff:fe23:4567:890a port 58653 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:42 ssh-host sshd[13648]: Did not receive identification string from 192.168.1.100
+ott 15 20:00:42 edge01 sshd[82031]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:00:42 ssh-host sshd[43822]: Did not receive identification string from 203.0.113.45
+ott 15 20:00:42 gateway sshd[53711]: Failed password for svc_backup from 203.0.113.45 port 11424 ssh2
+ott 15 20:00:42 bastion sshd[7365]: Invalid user guest from 203.0.113.45 port 28467
+ott 15 20:00:42 gateway sshd[56481]: Accepted password for oracle from 203.0.113.45 port 28813 ssh2
+ott 15 20:00:42 gateway sshd[84482]: Failed password for invalid user backup from 172.16.0.2 port 20906 ssh2
+ott 15 20:00:42 bastion sshd[36905]: Failed publickey for admin from fe80::1ff:fe23:4567:890a port 54931 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:42 bastion sshd[67078]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 20:00:42 edge01 sshd[73698]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:00:42 bastion sshd[54742]: Failed publickey for svc_backup from 172.16.0.2 port 22955 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:42 ssh-host sshd[17681]: Accepted password for svc_backup from fe80::1ff:fe23:4567:890a port 64850 ssh2
+ott 15 20:00:42 edge01 sshd[65912]: Did not receive identification string from 198.51.100.23
+ott 15 20:00:42 edge01 sshd[15826]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=deploy
+ott 15 20:00:42 gateway sshd[43367]: Invalid user oracle from 10.0.0.10 port 59632
+ott 15 20:00:42 ssh-host sshd[28548]: error: maximum authentication attempts exceeded for backup from 2001:0db8:85a3::8a2e:0370:7334 port 30930 ssh2
+ott 15 20:00:42 gateway sshd[98265]: Disconnect from 192.168.1.100 port 25421: Too many authentication failures
+ott 15 20:00:42 ssh-host sshd[63429]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:42 server1 sshd[10993]: Failed password for deploy from fe80::1ff:fe23:4567:890a port 56043 ssh2
+ott 15 20:00:42 edge01 sshd[38370]: Did not receive identification string from 198.51.100.23
+ott 15 20:00:42 bastion sshd[30161]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:42 server1 sshd[93221]: Failed password for www-data from 198.51.100.23 port 19277 ssh2
+ott 15 20:00:42 edge01 sshd[18526]: Disconnect from 203.0.113.45 port 20557: Too many authentication failures
+ott 15 20:00:42 bastion sshd[30774]: error: maximum authentication attempts exceeded for oracle from 2001:0db8:85a3::8a2e:0370:7334 port 40723 ssh2
+ott 15 20:00:42 bastion sshd[30774]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:00:42 bastion sshd[88838]: Failed password for invalid user www-data from 172.16.0.2 port 59596 ssh2
+ott 15 20:00:42 edge01 sshd[1444]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:00:42 ssh-host sshd[22128]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=oracle
+ott 15 20:00:42 gateway sshd[28615]: Invalid user admin from 172.16.0.2 port 4341
+ott 15 20:00:42 edge01 sshd[25387]: Failed password for invalid user test from 10.1.1.8 port 48900 ssh2

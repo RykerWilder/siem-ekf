@@ -1,0 +1,19 @@
+ott 15 20:00:59 bastion sshd[27221]: Did not receive identification string from 203.0.113.45
+ott 15 20:00:59 bastion sshd[19100]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:00:59 ssh-host sshd[62627]: Did not receive identification string from 10.1.1.8
+ott 15 20:00:59 gateway sshd[20460]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:59 edge01 sshd[35749]: Failed password for invalid user backup from 2001:0db8:85a3::8a2e:0370:7334 port 18519 ssh2
+ott 15 20:00:59 bastion sshd[73531]: Failed password for root from 10.0.0.10 port 3813 ssh2
+ott 15 20:00:59 server1 sshd[17633]: Accepted password for test from 10.1.1.8 port 43341 ssh2
+ott 15 20:00:59 gateway sshd[16705]: Did not receive identification string from 10.0.0.10
+ott 15 20:00:59 gateway sshd[16705]: pam_unix(sshd:auth): authentication failure; user=root rhost=10.0.0.10
+ott 15 20:00:59 bastion sshd[83874]: error: maximum authentication attempts exceeded for backup from fe80::1ff:fe23:4567:890a port 51350 ssh2
+ott 15 20:00:59 edge01 sshd[99913]: Invalid user test from 198.51.100.23 port 26899
+ott 15 20:00:59 edge01 sshd[99913]: pam_unix(sshd:auth): authentication failure; user=test rhost=198.51.100.23
+ott 15 20:00:59 gateway sshd[69055]: Failed password for deploy from 172.16.0.2 port 34508 ssh2
+ott 15 20:00:59 ssh-host sshd[12214]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 48269: Too many authentication failures
+ott 15 20:00:59 ssh-host sshd[35319]: Accepted password for admin from 192.168.1.55 port 39144 ssh2
+ott 15 20:00:59 server1 sshd[36749]: Did not receive identification string from 192.168.1.100
+ott 15 20:00:59 server1 sshd[36749]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=192.168.1.100
+ott 15 20:00:59 gateway sshd[42131]: Failed password for invalid user deploy from 198.51.100.23 port 54257 ssh2
+ott 15 20:00:59 edge01 sshd[78554]: Invalid user test from 198.51.100.23 port 6836

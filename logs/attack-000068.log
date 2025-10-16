@@ -1,0 +1,38 @@
+ott 15 19:59:24 gateway sshd[62141]: Disconnect from 203.0.113.45 port 62911: Too many authentication failures
+ott 15 19:59:24 edge01 sshd[51747]: Failed publickey for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 18498 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:24 bastion sshd[85954]: error: maximum authentication attempts exceeded for svc_backup from 192.168.1.55 port 34050 ssh2
+ott 15 19:59:24 ssh-host sshd[47418]: Failed password for invalid user admin from 192.168.1.100 port 8535 ssh2
+ott 15 19:59:24 gateway sshd[31530]: Connection closed by authenticating user test 10.1.1.8 port 1507 [preauth]
+ott 15 19:59:24 edge01 sshd[46913]: error: maximum authentication attempts exceeded for backup from 10.1.1.8 port 36728 ssh2
+ott 15 19:59:24 edge01 sshd[71722]: Failed publickey for admin from 203.0.113.45 port 28670 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:24 edge01 sshd[24987]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 19:59:24 edge01 sshd[24238]: Invalid user svc_backup from 203.0.113.45 port 51477
+ott 15 19:59:24 bastion sshd[39335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=deploy
+ott 15 19:59:24 bastion sshd[39335]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=172.16.0.2
+ott 15 19:59:24 edge01 sshd[82458]: Failed password for invalid user deploy from 10.1.1.8 port 19649 ssh2
+ott 15 19:59:24 edge01 sshd[41321]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 19:59:24 edge01 sshd[41321]: pam_unix(sshd:auth): authentication failure; user=root rhost=198.51.100.23
+ott 15 19:59:24 server1 sshd[79659]: Invalid user guest from 192.168.1.55 port 61575
+ott 15 19:59:24 server1 sshd[52570]: error: maximum authentication attempts exceeded for backup from 172.16.0.2 port 14833 ssh2
+ott 15 19:59:24 edge01 sshd[80499]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=root
+ott 15 19:59:24 server1 sshd[24891]: Invalid user user1 from fe80::1ff:fe23:4567:890a port 65250
+ott 15 19:59:24 gateway sshd[98240]: Invalid user oracle from 10.1.1.8 port 22377
+ott 15 19:59:24 gateway sshd[84364]: Connection closed by authenticating user test 203.0.113.45 port 45229 [preauth]
+ott 15 19:59:24 ssh-host sshd[47297]: Accepted password for guest from 192.168.1.100 port 61229 ssh2
+ott 15 19:59:24 ssh-host sshd[47297]: pam_unix(sshd:auth): authentication failure; user=guest rhost=192.168.1.100
+ott 15 19:59:24 edge01 sshd[73498]: error: maximum authentication attempts exceeded for oracle from 192.168.1.100 port 54621 ssh2
+ott 15 19:59:24 edge01 sshd[96768]: Connection closed by authenticating user www-data 172.16.0.2 port 51409 [preauth]
+ott 15 19:59:24 bastion sshd[71758]: error: maximum authentication attempts exceeded for oracle from 192.168.1.100 port 42309 ssh2
+ott 15 19:59:24 bastion sshd[4231]: Failed password for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 12411 ssh2
+ott 15 19:59:24 bastion sshd[9903]: Invalid user test from 172.16.0.2 port 17917
+ott 15 19:59:24 ssh-host sshd[16105]: Disconnect from 10.0.0.10 port 63342: Too many authentication failures
+ott 15 19:59:24 server1 sshd[1625]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:24 ssh-host sshd[19808]: reverse mapping checking getaddrinfo for 2001:0db8:85a3::8a2e:0370:7334 failed - possible spoofing?
+ott 15 19:59:24 gateway sshd[78075]: Failed password for invalid user admin from 2001:0db8:85a3::8a2e:0370:7334 port 36051 ssh2
+ott 15 19:59:24 edge01 sshd[50902]: Disconnect from fe80::1ff:fe23:4567:890a port 22411: Too many authentication failures
+ott 15 19:59:24 server1 sshd[10230]: Invalid user root from fe80::1ff:fe23:4567:890a port 33133
+ott 15 19:59:24 bastion sshd[45379]: Connection closed by authenticating user test fe80::1ff:fe23:4567:890a port 38881 [preauth]
+ott 15 19:59:24 ssh-host sshd[58370]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 19:59:24 ssh-host sshd[86474]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=test
+ott 15 19:59:24 ssh-host sshd[66073]: Failed publickey for oracle from 192.168.1.55 port 42383 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:24 edge01 sshd[19913]: Invalid user root from 192.168.1.55 port 57524

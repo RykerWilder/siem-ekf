@@ -1,0 +1,14 @@
+ott 15 20:01:26 edge01 sshd[44222]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 25338: Too many authentication failures
+ott 15 20:01:26 gateway sshd[53210]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 20:01:26 ssh-host sshd[57311]: Failed publickey for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 18100 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:26 edge01 sshd[22759]: Failed password for invalid user deploy from 2001:0db8:85a3::8a2e:0370:7334 port 8376 ssh2
+ott 15 20:01:27 server1 sshd[77351]: Accepted password for root from 203.0.113.45 port 44985 ssh2
+ott 15 20:01:27 server1 sshd[6701]: reverse mapping checking getaddrinfo for 2001:0db8:85a3::8a2e:0370:7334 failed - possible spoofing?
+ott 15 20:01:27 server1 sshd[6701]: pam_unix(sshd:auth): authentication failure; user=admin rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:01:27 gateway sshd[10526]: Disconnect from fe80::1ff:fe23:4567:890a port 47532: Too many authentication failures
+ott 15 20:01:27 server1 sshd[70067]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 62520: Too many authentication failures
+ott 15 20:01:27 ssh-host sshd[51087]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=root
+ott 15 20:01:27 gateway sshd[71297]: Failed publickey for backup from 10.0.0.10 port 55820 ssh2: RSA SHA256:abcdef...
+ott 15 20:01:27 bastion sshd[87791]: Connection closed by authenticating user backup 172.16.0.2 port 31370 [preauth]
+ott 15 20:01:27 ssh-host sshd[80504]: Failed password for invalid user svc_backup from fe80::1ff:fe23:4567:890a port 1115 ssh2
+ott 15 20:01:27 bastion sshd[85114]: Did not receive identification string from 10.0.0.10

@@ -1,0 +1,9 @@
+ott 15 19:58:31 edge01 sshd[17607]: Invalid user backup from 203.0.113.45 port 44153
+ott 15 19:58:31 server1 sshd[48890]: Failed publickey for guest from 203.0.113.45 port 34864 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:31 edge01 sshd[20377]: Invalid user test from 2001:0db8:85a3::8a2e:0370:7334 port 14929
+ott 15 19:58:31 edge01 sshd[13082]: Invalid user admin from 203.0.113.45 port 44321
+ott 15 19:58:31 gateway sshd[58379]: Accepted password for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 2671 ssh2
+ott 15 19:58:31 ssh-host sshd[75391]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 19:58:31 gateway sshd[8984]: Invalid user guest from 172.16.0.2 port 30888
+ott 15 19:58:31 bastion sshd[28538]: Failed password for user1 from 203.0.113.45 port 47036 ssh2
+ott 15 19:58:31 server1 sshd[49128]: Failed password for invalid user www-data from 10.0.0.10 port 40044 ssh2

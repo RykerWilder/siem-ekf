@@ -1,0 +1,43 @@
+ott 15 18:51:36 ssh-host sshd[51279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=test
+ott 15 18:51:36 bastion sshd[42215]: Connection closed by authenticating user guest 192.168.1.100 port 2077 [preauth]
+ott 15 18:51:36 edge01 sshd[61571]: Did not receive identification string from 192.168.1.55
+ott 15 18:51:36 edge01 sshd[62738]: Failed password for invalid user user1 from 10.0.0.10 port 8743 ssh2
+ott 15 18:51:36 ssh-host sshd[33607]: Failed password for test from fe80::1ff:fe23:4567:890a port 56657 ssh2
+ott 15 18:51:36 gateway sshd[14026]: Invalid user svc_backup from fe80::1ff:fe23:4567:890a port 56709
+ott 15 18:51:36 server1 sshd[32216]: Accepted password for backup from 203.0.113.45 port 21259 ssh2
+ott 15 18:51:36 ssh-host sshd[76411]: Connection closed by authenticating user root fe80::1ff:fe23:4567:890a port 41758 [preauth]
+ott 15 18:51:36 bastion sshd[28300]: Connection closed by authenticating user deploy 192.168.1.55 port 12124 [preauth]
+ott 15 18:51:36 bastion sshd[21035]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=www-data
+ott 15 18:51:36 gateway sshd[41116]: Invalid user www-data from 192.168.1.100 port 27308
+ott 15 18:51:36 bastion sshd[78586]: Connection closed by authenticating user deploy 198.51.100.23 port 26937 [preauth]
+ott 15 18:51:36 edge01 sshd[15309]: Failed password for oracle from 203.0.113.45 port 57191 ssh2
+ott 15 18:51:36 bastion sshd[1078]: Failed password for invalid user oracle from 198.51.100.23 port 58513 ssh2
+ott 15 18:51:36 ssh-host sshd[20704]: Disconnect from fe80::1ff:fe23:4567:890a port 26455: Too many authentication failures
+ott 15 18:51:36 edge01 sshd[24596]: Connection closed by authenticating user www-data 203.0.113.45 port 3415 [preauth]
+ott 15 18:51:36 edge01 sshd[67575]: Connection closed by authenticating user guest 192.168.1.55 port 48233 [preauth]
+ott 15 19:57:20 ssh-host sshd[97103]: Disconnect from 198.51.100.23 port 12818: Too many authentication failures
+ott 15 19:57:20 bastion sshd[89528]: Connection closed by authenticating user root 10.0.0.10 port 43628 [preauth]
+ott 15 19:57:20 bastion sshd[20825]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 19:57:20 edge01 sshd[78052]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=backup
+ott 15 19:57:21 bastion sshd[75327]: Failed password for admin from 198.51.100.23 port 61203 ssh2
+ott 15 19:57:21 bastion sshd[39698]: error: maximum authentication attempts exceeded for root from 10.0.0.10 port 4575 ssh2
+ott 15 19:57:21 edge01 sshd[83136]: Failed publickey for test from 10.1.1.8 port 41308 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:21 ssh-host sshd[54206]: Connection closed by authenticating user www-data 10.1.1.8 port 55955 [preauth]
+ott 15 19:57:21 edge01 sshd[68570]: Failed password for guest from 10.1.1.8 port 34143 ssh2
+ott 15 19:57:21 edge01 sshd[95568]: Connection closed by authenticating user user1 192.168.1.55 port 13335 [preauth]
+ott 15 19:57:21 edge01 sshd[95568]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=192.168.1.55
+ott 15 19:57:21 bastion sshd[40205]: Failed password for guest from 10.0.0.10 port 32476 ssh2
+ott 15 19:57:21 ssh-host sshd[65778]: Connection closed by authenticating user test 192.168.1.55 port 42397 [preauth]
+ott 15 19:57:21 ssh-host sshd[65778]: pam_unix(sshd:auth): authentication failure; user=test rhost=192.168.1.55
+ott 15 19:57:21 edge01 sshd[61811]: Did not receive identification string from 10.1.1.8
+ott 15 19:57:21 gateway sshd[43330]: error: maximum authentication attempts exceeded for www-data from 172.16.0.2 port 53704 ssh2
+ott 15 19:57:21 gateway sshd[2210]: Failed publickey for user1 from 2001:0db8:85a3::8a2e:0370:7334 port 45069 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:21 bastion sshd[66648]: Connection closed by authenticating user test fe80::1ff:fe23:4567:890a port 13399 [preauth]
+ott 15 19:57:21 edge01 sshd[36167]: Connection closed by authenticating user oracle 2001:0db8:85a3::8a2e:0370:7334 port 23793 [preauth]
+ott 15 19:57:21 bastion sshd[10845]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 19:57:21 bastion sshd[10845]: pam_unix(sshd:auth): authentication failure; user=test rhost=10.1.1.8
+ott 15 19:57:21 edge01 sshd[77730]: Failed password for root from 198.51.100.23 port 36371 ssh2
+ott 15 19:57:21 gateway sshd[39972]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:57:21 ssh-host sshd[63911]: Accepted password for test from 10.0.0.10 port 10884 ssh2
+ott 15 19:57:21 gateway sshd[95305]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 19:57:21 server1 sshd[30720]: Connection closed by authenticating user root 203.0.113.45 port 35602 [preauth]

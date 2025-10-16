@@ -1,0 +1,32 @@
+ott 15 19:58:52 bastion sshd[33939]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 19:58:52 ssh-host sshd[12630]: Connection closed by authenticating user deploy 192.168.1.100 port 25904 [preauth]
+ott 15 19:58:52 bastion sshd[91489]: Failed password for backup from 203.0.113.45 port 57167 ssh2
+ott 15 19:58:52 edge01 sshd[86587]: Connection closed by authenticating user deploy 192.168.1.100 port 47304 [preauth]
+ott 15 19:58:53 ssh-host sshd[4140]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:53 bastion sshd[77050]: Accepted password for backup from 192.168.1.100 port 56557 ssh2
+ott 15 19:58:53 bastion sshd[57464]: Failed password for backup from 198.51.100.23 port 48021 ssh2
+ott 15 19:58:53 gateway sshd[16997]: Connection closed by authenticating user deploy 10.1.1.8 port 65346 [preauth]
+ott 15 19:58:53 server1 sshd[14054]: Failed publickey for admin from 198.51.100.23 port 46495 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:53 bastion sshd[53037]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:53 gateway sshd[67842]: Connection closed by authenticating user backup 172.16.0.2 port 16187 [preauth]
+ott 15 19:58:53 edge01 sshd[61133]: Invalid user test from 198.51.100.23 port 25072
+ott 15 19:58:53 edge01 sshd[61133]: pam_unix(sshd:auth): authentication failure; user=test rhost=198.51.100.23
+ott 15 19:58:53 ssh-host sshd[62165]: Did not receive identification string from 172.16.0.2
+ott 15 19:58:53 gateway sshd[93172]: Invalid user www-data from fe80::1ff:fe23:4567:890a port 9035
+ott 15 19:58:53 gateway sshd[76511]: Did not receive identification string from 172.16.0.2
+ott 15 19:58:53 ssh-host sshd[90370]: Did not receive identification string from 192.168.1.100
+ott 15 19:58:53 ssh-host sshd[90370]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=192.168.1.100
+ott 15 19:58:53 edge01 sshd[82957]: Accepted password for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 62020 ssh2
+ott 15 19:58:53 edge01 sshd[82957]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 19:58:53 ssh-host sshd[27185]: Disconnect from 192.168.1.100 port 38048: Too many authentication failures
+ott 15 19:58:53 gateway sshd[24834]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:53 edge01 sshd[24579]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:53 ssh-host sshd[94866]: Disconnect from 192.168.1.100 port 22205: Too many authentication failures
+ott 15 19:58:53 gateway sshd[75640]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 19:58:53 gateway sshd[1533]: Did not receive identification string from 203.0.113.45
+ott 15 19:58:53 gateway sshd[39865]: error: maximum authentication attempts exceeded for admin from 203.0.113.45 port 1607 ssh2
+ott 15 19:58:53 server1 sshd[30354]: Invalid user user1 from 203.0.113.45 port 32936
+ott 15 19:58:53 bastion sshd[34140]: Connection closed by authenticating user root 192.168.1.100 port 48519 [preauth]
+ott 15 19:58:53 ssh-host sshd[57996]: Did not receive identification string from 198.51.100.23
+ott 15 19:58:53 edge01 sshd[68022]: Did not receive identification string from 192.168.1.100
+ott 15 19:58:53 ssh-host sshd[57896]: Invalid user oracle from 192.168.1.55 port 50293

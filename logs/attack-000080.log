@@ -1,0 +1,13 @@
+ott 15 19:59:44 edge01 sshd[85535]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 19:59:44 bastion sshd[85585]: Disconnect from fe80::1ff:fe23:4567:890a port 53557: Too many authentication failures
+ott 15 19:59:44 edge01 sshd[10104]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 19:59:44 server1 sshd[70241]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=root
+ott 15 19:59:44 server1 sshd[14354]: Disconnect from 172.16.0.2 port 15687: Too many authentication failures
+ott 15 19:59:44 bastion sshd[93878]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=admin
+ott 15 19:59:44 server1 sshd[88233]: Failed password for invalid user oracle from 192.168.1.55 port 16466 ssh2
+ott 15 19:59:44 server1 sshd[91117]: Failed password for invalid user user1 from 192.168.1.55 port 49754 ssh2
+ott 15 19:59:44 server1 sshd[91117]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=192.168.1.55
+ott 15 19:59:44 server1 sshd[23876]: Connection closed by authenticating user guest 203.0.113.45 port 40140 [preauth]
+ott 15 19:59:44 edge01 sshd[62411]: Failed password for invalid user www-data from 2001:0db8:85a3::8a2e:0370:7334 port 7567 ssh2
+ott 15 19:59:44 edge01 sshd[27059]: Failed publickey for user1 from 10.0.0.10 port 31721 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:44 edge01 sshd[93671]: Failed password for user1 from fe80::1ff:fe23:4567:890a port 36714 ssh2

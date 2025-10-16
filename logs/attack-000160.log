@@ -1,0 +1,31 @@
+ott 15 20:02:07 edge01 sshd[53816]: Failed publickey for guest from 198.51.100.23 port 56514 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:07 server1 sshd[92459]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:07 edge01 sshd[73385]: Failed password for invalid user test from 203.0.113.45 port 14006 ssh2
+ott 15 20:02:07 server1 sshd[81475]: Accepted password for admin from 192.168.1.55 port 15562 ssh2
+ott 15 20:02:07 gateway sshd[60789]: Failed publickey for deploy from 172.16.0.2 port 25815 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:07 gateway sshd[60789]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=172.16.0.2
+ott 15 20:02:07 edge01 sshd[87094]: Failed password for deploy from 192.168.1.55 port 31731 ssh2
+ott 15 20:02:07 gateway sshd[48091]: Failed password for invalid user deploy from 192.168.1.55 port 17272 ssh2
+ott 15 20:02:07 server1 sshd[66851]: Failed password for svc_backup from 10.1.1.8 port 7254 ssh2
+ott 15 20:02:07 edge01 sshd[41912]: error: maximum authentication attempts exceeded for guest from 192.168.1.100 port 56134 ssh2
+ott 15 20:02:07 gateway sshd[73062]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 20:02:07 gateway sshd[73062]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=192.168.1.55
+ott 15 20:02:07 server1 sshd[94824]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:07 ssh-host sshd[97441]: Failed password for svc_backup from 203.0.113.45 port 51540 ssh2
+ott 15 20:02:07 ssh-host sshd[97441]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=203.0.113.45
+ott 15 20:02:07 gateway sshd[81988]: error: maximum authentication attempts exceeded for admin from 198.51.100.23 port 39325 ssh2
+ott 15 20:02:07 server1 sshd[72115]: error: maximum authentication attempts exceeded for backup from 192.168.1.100 port 28562 ssh2
+ott 15 20:02:07 bastion sshd[96847]: Invalid user deploy from 198.51.100.23 port 52334
+ott 15 20:02:07 ssh-host sshd[33705]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:07 bastion sshd[71941]: Invalid user test from 198.51.100.23 port 24757
+ott 15 20:02:07 gateway sshd[43237]: Failed publickey for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 43174 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:07 gateway sshd[23818]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=guest
+ott 15 20:02:07 gateway sshd[23818]: pam_unix(sshd:auth): authentication failure; user=guest rhost=198.51.100.23
+ott 15 20:02:07 gateway sshd[51922]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:07 ssh-host sshd[50209]: Failed password for invalid user guest from 10.1.1.8 port 56870 ssh2
+ott 15 20:02:07 ssh-host sshd[5054]: Failed password for invalid user deploy from 192.168.1.100 port 29886 ssh2
+ott 15 20:02:07 bastion sshd[91470]: Disconnect from 172.16.0.2 port 32735: Too many authentication failures
+ott 15 20:02:07 ssh-host sshd[60309]: Disconnect from 198.51.100.23 port 42135: Too many authentication failures
+ott 15 20:02:07 gateway sshd[50720]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:02:07 bastion sshd[16411]: Disconnect from 198.51.100.23 port 4541: Too many authentication failures
+ott 15 20:02:07 gateway sshd[11800]: Did not receive identification string from 10.0.0.10

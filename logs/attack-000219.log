@@ -1,0 +1,19 @@
+ott 15 20:03:51 edge01 sshd[72675]: Failed password for user1 from 172.16.0.2 port 59611 ssh2
+ott 15 20:03:51 gateway sshd[34212]: Failed password for user1 from 10.1.1.8 port 45407 ssh2
+ott 15 20:03:51 gateway sshd[84624]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:51 edge01 sshd[43283]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 20:03:51 gateway sshd[80075]: Failed password for root from 198.51.100.23 port 13512 ssh2
+ott 15 20:03:51 ssh-host sshd[21513]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:51 bastion sshd[6899]: Accepted password for root from 192.168.1.55 port 32585 ssh2
+ott 15 20:03:51 server1 sshd[6727]: Failed publickey for svc_backup from 192.168.1.55 port 49387 ssh2: RSA SHA256:abcdef...
+ott 15 20:03:52 bastion sshd[77550]: Connection closed by authenticating user test 172.16.0.2 port 62488 [preauth]
+ott 15 20:03:52 bastion sshd[77550]: pam_unix(sshd:auth): authentication failure; user=test rhost=172.16.0.2
+ott 15 20:03:52 edge01 sshd[46317]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 20:03:52 edge01 sshd[46317]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=fe80::1ff:fe23:4567:890a
+ott 15 20:03:52 server1 sshd[22197]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 20:03:52 server1 sshd[51862]: Invalid user svc_backup from 192.168.1.55 port 59467
+ott 15 20:03:52 server1 sshd[67208]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:52 gateway sshd[37538]: Accepted password for svc_backup from 10.0.0.10 port 22374 ssh2
+ott 15 20:03:52 gateway sshd[16779]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=backup
+ott 15 20:03:52 ssh-host sshd[14515]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:03:52 server1 sshd[67931]: error: maximum authentication attempts exceeded for backup from 192.168.1.55 port 28266 ssh2

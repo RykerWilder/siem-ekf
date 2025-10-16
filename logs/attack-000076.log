@@ -1,0 +1,39 @@
+ott 15 19:59:38 bastion sshd[68514]: Invalid user deploy from 203.0.113.45 port 9220
+ott 15 19:59:38 gateway sshd[29045]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:38 bastion sshd[91986]: Invalid user www-data from 2001:0db8:85a3::8a2e:0370:7334 port 6756
+ott 15 19:59:38 bastion sshd[33534]: Failed password for invalid user admin from 172.16.0.2 port 29602 ssh2
+ott 15 19:59:38 gateway sshd[59678]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 19:59:38 server1 sshd[72979]: Did not receive identification string from 172.16.0.2
+ott 15 19:59:38 server1 sshd[72979]: pam_unix(sshd:auth): authentication failure; user=backup rhost=172.16.0.2
+ott 15 19:59:38 ssh-host sshd[67429]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:38 edge01 sshd[55473]: Did not receive identification string from 192.168.1.55
+ott 15 19:59:38 edge01 sshd[48174]: Failed password for deploy from 203.0.113.45 port 43493 ssh2
+ott 15 19:59:38 bastion sshd[66354]: Failed publickey for backup from 192.168.1.100 port 53228 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:38 bastion sshd[54261]: Did not receive identification string from 203.0.113.45
+ott 15 19:59:38 edge01 sshd[16534]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=user1
+ott 15 19:59:38 ssh-host sshd[94248]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 19:59:38 edge01 sshd[40361]: Invalid user oracle from 172.16.0.2 port 22286
+ott 15 19:59:38 server1 sshd[17289]: Disconnect from 203.0.113.45 port 27240: Too many authentication failures
+ott 15 19:59:38 bastion sshd[59690]: Connection closed by authenticating user www-data 192.168.1.100 port 22618 [preauth]
+ott 15 19:59:38 ssh-host sshd[76157]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:38 ssh-host sshd[2002]: Failed password for www-data from 10.0.0.10 port 60052 ssh2
+ott 15 19:59:38 edge01 sshd[47736]: Did not receive identification string from 172.16.0.2
+ott 15 19:59:38 gateway sshd[15987]: Disconnect from 172.16.0.2 port 45005: Too many authentication failures
+ott 15 19:59:38 bastion sshd[97948]: Failed publickey for deploy from 192.168.1.55 port 52157 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:38 server1 sshd[38854]: error: maximum authentication attempts exceeded for root from fe80::1ff:fe23:4567:890a port 45952 ssh2
+ott 15 19:59:38 gateway sshd[93489]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 19:59:38 server1 sshd[13108]: Disconnect from 10.1.1.8 port 59419: Too many authentication failures
+ott 15 19:59:38 gateway sshd[73541]: error: maximum authentication attempts exceeded for www-data from 172.16.0.2 port 51894 ssh2
+ott 15 19:59:38 ssh-host sshd[31171]: error: maximum authentication attempts exceeded for admin from 2001:0db8:85a3::8a2e:0370:7334 port 43825 ssh2
+ott 15 19:59:38 ssh-host sshd[86321]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 19:59:38 server1 sshd[13663]: Disconnect from 10.0.0.10 port 26647: Too many authentication failures
+ott 15 19:59:38 gateway sshd[71891]: Invalid user guest from 192.168.1.55 port 19474
+ott 15 19:59:38 bastion sshd[28214]: Invalid user test from 192.168.1.55 port 22811
+ott 15 19:59:38 ssh-host sshd[8696]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 19:59:38 bastion sshd[78802]: Failed publickey for admin from 10.0.0.10 port 56080 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:38 edge01 sshd[68187]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:38 server1 sshd[23949]: Failed publickey for user1 from 203.0.113.45 port 64121 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:38 edge01 sshd[28506]: Disconnect from 172.16.0.2 port 60740: Too many authentication failures
+ott 15 19:59:38 bastion sshd[31017]: Failed password for test from 198.51.100.23 port 21438 ssh2
+ott 15 19:59:38 gateway sshd[50416]: Connection closed by authenticating user deploy 192.168.1.100 port 54414 [preauth]
+ott 15 19:59:38 server1 sshd[18848]: Connection closed by authenticating user www-data 192.168.1.100 port 36824 [preauth]

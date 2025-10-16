@@ -1,0 +1,59 @@
+ott 15 18:51:40 ssh-host sshd[64464]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:0db8:85a3::8a2e:0370:7334  user=root
+ott 15 18:51:40 bastion sshd[34319]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 18:51:40 server1 sshd[45606]: Invalid user root from 2001:0db8:85a3::8a2e:0370:7334 port 15860
+ott 15 18:51:40 server1 sshd[45606]: pam_unix(sshd:auth): authentication failure; user=root rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 18:51:41 edge01 sshd[62183]: Disconnect from 192.168.1.100 port 61054: Too many authentication failures
+ott 15 18:51:41 edge01 sshd[69426]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=deploy
+ott 15 18:51:41 server1 sshd[93981]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=backup
+ott 15 18:51:41 bastion sshd[79143]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 18:51:41 gateway sshd[68156]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 18:51:41 edge01 sshd[6326]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=root
+ott 15 18:51:41 ssh-host sshd[88665]: Failed publickey for oracle from 198.51.100.23 port 61865 ssh2: RSA SHA256:abcdef...
+ott 15 18:51:41 edge01 sshd[90146]: Failed password for root from 192.168.1.100 port 9399 ssh2
+ott 15 18:51:41 bastion sshd[1729]: Invalid user oracle from 2001:0db8:85a3::8a2e:0370:7334 port 26789
+ott 15 18:51:41 edge01 sshd[40246]: Accepted password for deploy from 10.1.1.8 port 46000 ssh2
+ott 15 18:51:41 edge01 sshd[63967]: Disconnect from 198.51.100.23 port 41064: Too many authentication failures
+ott 15 18:51:41 bastion sshd[71746]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 18:51:41 edge01 sshd[18198]: Failed password for invalid user www-data from 10.0.0.10 port 41847 ssh2
+ott 15 18:51:41 bastion sshd[44427]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 18:51:41 gateway sshd[38874]: Failed password for admin from 172.16.0.2 port 20391 ssh2
+ott 15 19:57:24 ssh-host sshd[90582]: error: maximum authentication attempts exceeded for user1 from 10.0.0.10 port 41734 ssh2
+ott 15 19:57:24 ssh-host sshd[98652]: Failed password for svc_backup from 2001:0db8:85a3::8a2e:0370:7334 port 41098 ssh2
+ott 15 19:57:24 bastion sshd[22851]: Failed password for oracle from 203.0.113.45 port 15037 ssh2
+ott 15 19:57:24 server1 sshd[44864]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 19:57:24 edge01 sshd[20671]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 19:57:24 edge01 sshd[73832]: Invalid user root from fe80::1ff:fe23:4567:890a port 8624
+ott 15 19:57:24 ssh-host sshd[37903]: Did not receive identification string from 198.51.100.23
+ott 15 19:57:25 server1 sshd[70059]: Accepted password for www-data from 192.168.1.55 port 36631 ssh2
+ott 15 19:57:25 ssh-host sshd[32172]: Accepted password for guest from 172.16.0.2 port 41255 ssh2
+ott 15 19:57:25 ssh-host sshd[29341]: Failed publickey for user1 from 172.16.0.2 port 46732 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:25 bastion sshd[56099]: Did not receive identification string from 198.51.100.23
+ott 15 19:57:25 gateway sshd[97548]: Failed password for admin from 2001:0db8:85a3::8a2e:0370:7334 port 36527 ssh2
+ott 15 19:57:25 server1 sshd[49771]: Accepted password for admin from 192.168.1.100 port 7365 ssh2
+ott 15 19:57:25 ssh-host sshd[47841]: Failed password for backup from 10.0.0.10 port 44679 ssh2
+ott 15 19:57:25 ssh-host sshd[80506]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
+ott 15 19:57:25 edge01 sshd[22128]: error: maximum authentication attempts exceeded for oracle from 203.0.113.45 port 26262 ssh2
+ott 15 19:57:25 ssh-host sshd[33256]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 19:57:25 gateway sshd[22921]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:57:25 bastion sshd[62525]: Accepted password for www-data from 10.0.0.10 port 32578 ssh2
+ott 15 19:57:25 bastion sshd[62525]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=10.0.0.10
+ott 15 19:57:25 edge01 sshd[30115]: Failed password for admin from 2001:0db8:85a3::8a2e:0370:7334 port 36207 ssh2
+ott 15 19:57:25 ssh-host sshd[98141]: Failed password for invalid user deploy from 198.51.100.23 port 39329 ssh2
+ott 15 19:57:25 edge01 sshd[62496]: Failed password for invalid user user1 from 192.168.1.100 port 8509 ssh2
+ott 15 19:57:25 edge01 sshd[40708]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:57:25 edge01 sshd[85884]: error: maximum authentication attempts exceeded for guest from 192.168.1.55 port 40845 ssh2
+ott 15 19:57:25 edge01 sshd[65572]: Disconnect from 203.0.113.45 port 16214: Too many authentication failures
+ott 15 19:57:25 edge01 sshd[53281]: Failed password for invalid user test from 192.168.1.100 port 59850 ssh2
+ott 15 19:57:25 gateway sshd[77722]: Failed publickey for svc_backup from 10.1.1.8 port 48044 ssh2: RSA SHA256:abcdef...
+ott 15 19:57:25 bastion sshd[98345]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
+ott 15 19:57:25 bastion sshd[98345]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=fe80::1ff:fe23:4567:890a
+ott 15 19:57:25 ssh-host sshd[75505]: Connection closed by authenticating user deploy 198.51.100.23 port 49594 [preauth]
+ott 15 19:57:25 edge01 sshd[73092]: Failed password for backup from 192.168.1.55 port 15273 ssh2
+ott 15 19:57:25 bastion sshd[48690]: Failed password for invalid user root from 203.0.113.45 port 24642 ssh2
+ott 15 19:57:25 edge01 sshd[60257]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 64807: Too many authentication failures
+ott 15 19:57:25 bastion sshd[12499]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 19:57:25 edge01 sshd[96818]: Failed password for admin from 172.16.0.2 port 53003 ssh2
+ott 15 19:57:25 bastion sshd[64704]: Invalid user oracle from 203.0.113.45 port 45813
+ott 15 19:57:25 gateway sshd[84225]: Did not receive identification string from 198.51.100.23
+ott 15 19:57:25 ssh-host sshd[4321]: Accepted password for deploy from fe80::1ff:fe23:4567:890a port 63341 ssh2
+ott 15 19:57:25 bastion sshd[85198]: Did not receive identification string from fe80::1ff:fe23:4567:890a

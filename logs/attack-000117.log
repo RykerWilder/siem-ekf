@@ -1,0 +1,19 @@
+ott 15 20:00:50 gateway sshd[9093]: Failed password for invalid user user1 from 2001:0db8:85a3::8a2e:0370:7334 port 32167 ssh2
+ott 15 20:00:50 server1 sshd[87723]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:50 server1 sshd[87723]: pam_unix(sshd:auth): authentication failure; user=root rhost=10.1.1.8
+ott 15 20:00:50 edge01 sshd[99014]: Invalid user deploy from 172.16.0.2 port 24783
+ott 15 20:00:50 gateway sshd[42435]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:50 edge01 sshd[24281]: Accepted password for backup from fe80::1ff:fe23:4567:890a port 17000 ssh2
+ott 15 20:00:50 ssh-host sshd[50246]: Failed password for invalid user guest from 192.168.1.55 port 28135 ssh2
+ott 15 20:00:50 gateway sshd[85321]: Failed publickey for oracle from 2001:0db8:85a3::8a2e:0370:7334 port 59275 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:50 server1 sshd[94460]: Invalid user oracle from 198.51.100.23 port 57476
+ott 15 20:00:50 server1 sshd[94460]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=198.51.100.23
+ott 15 20:00:50 bastion sshd[89443]: Failed publickey for guest from 2001:0db8:85a3::8a2e:0370:7334 port 52875 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:50 gateway sshd[26108]: Failed password for invalid user test from 10.1.1.8 port 17465 ssh2
+ott 15 20:00:50 ssh-host sshd[32152]: error: maximum authentication attempts exceeded for admin from 10.0.0.10 port 39279 ssh2
+ott 15 20:00:50 ssh-host sshd[32152]: pam_unix(sshd:auth): authentication failure; user=admin rhost=10.0.0.10
+ott 15 20:00:50 ssh-host sshd[63419]: Invalid user deploy from 198.51.100.23 port 31382
+ott 15 20:00:50 edge01 sshd[9727]: error: maximum authentication attempts exceeded for backup from 192.168.1.100 port 6139 ssh2
+ott 15 20:00:50 edge01 sshd[59831]: Disconnect from 203.0.113.45 port 35320: Too many authentication failures
+ott 15 20:00:50 server1 sshd[78111]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=deploy
+ott 15 20:00:50 edge01 sshd[80089]: Connection closed by authenticating user guest 10.0.0.10 port 40060 [preauth]

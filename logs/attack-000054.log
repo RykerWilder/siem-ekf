@@ -1,0 +1,10 @@
+ott 15 19:58:56 ssh-host sshd[49386]: Accepted password for admin from 172.16.0.2 port 29522 ssh2
+ott 15 19:58:56 ssh-host sshd[49386]: pam_unix(sshd:auth): authentication failure; user=admin rhost=172.16.0.2
+ott 15 19:58:56 bastion sshd[32774]: Did not receive identification string from 203.0.113.45
+ott 15 19:58:56 edge01 sshd[96318]: Failed password for invalid user user1 from 192.168.1.100 port 27058 ssh2
+ott 15 19:58:56 server1 sshd[38158]: Disconnect from 192.168.1.55 port 48030: Too many authentication failures
+ott 15 19:58:56 bastion sshd[10443]: Failed password for invalid user test from 203.0.113.45 port 60549 ssh2
+ott 15 19:58:56 server1 sshd[7440]: Failed publickey for admin from 203.0.113.45 port 14144 ssh2: RSA SHA256:abcdef...
+ott 15 19:58:56 server1 sshd[7440]: pam_unix(sshd:auth): authentication failure; user=admin rhost=203.0.113.45
+ott 15 19:58:56 server1 sshd[78158]: Disconnect from fe80::1ff:fe23:4567:890a port 51640: Too many authentication failures
+ott 15 19:58:56 server1 sshd[96876]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=admin

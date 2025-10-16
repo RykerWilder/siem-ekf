@@ -1,0 +1,11 @@
+ott 15 19:59:46 bastion sshd[8532]: Failed password for invalid user root from 10.1.1.8 port 41015 ssh2
+ott 15 19:59:46 gateway sshd[54104]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=root
+ott 15 19:59:46 server1 sshd[63030]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:46 ssh-host sshd[49982]: Invalid user root from 2001:0db8:85a3::8a2e:0370:7334 port 57898
+ott 15 19:59:46 edge01 sshd[99657]: Failed publickey for user1 from 2001:0db8:85a3::8a2e:0370:7334 port 35632 ssh2: RSA SHA256:abcdef...
+ott 15 19:59:46 gateway sshd[7336]: Failed password for invalid user oracle from 198.51.100.23 port 16584 ssh2
+ott 15 19:59:46 bastion sshd[14155]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:59:46 bastion sshd[19359]: Disconnect from 192.168.1.55 port 14620: Too many authentication failures
+ott 15 19:59:46 edge01 sshd[91672]: Disconnect from 198.51.100.23 port 29877: Too many authentication failures
+ott 15 19:59:46 edge01 sshd[68467]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=test
+ott 15 19:59:46 edge01 sshd[91630]: Failed password for invalid user svc_backup from 198.51.100.23 port 61890 ssh2

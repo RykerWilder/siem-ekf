@@ -1,0 +1,28 @@
+ott 15 20:03:04 bastion sshd[54993]: error: maximum authentication attempts exceeded for admin from 203.0.113.45 port 64823 ssh2
+ott 15 20:03:04 bastion sshd[54993]: pam_unix(sshd:auth): authentication failure; user=admin rhost=203.0.113.45
+ott 15 20:03:05 server1 sshd[99859]: error: maximum authentication attempts exceeded for test from 198.51.100.23 port 19688 ssh2
+ott 15 20:03:05 ssh-host sshd[35744]: Did not receive identification string from 10.1.1.8
+ott 15 20:03:05 gateway sshd[82595]: Failed password for invalid user www-data from 172.16.0.2 port 52200 ssh2
+ott 15 20:03:05 gateway sshd[73658]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 20:03:05 bastion sshd[61149]: error: maximum authentication attempts exceeded for admin from 10.0.0.10 port 43421 ssh2
+ott 15 20:03:05 edge01 sshd[76354]: Did not receive identification string from 10.1.1.8
+ott 15 20:03:05 edge01 sshd[82195]: Disconnect from 172.16.0.2 port 5385: Too many authentication failures
+ott 15 20:03:05 gateway sshd[15072]: Connection closed by authenticating user backup 10.1.1.8 port 29837 [preauth]
+ott 15 20:03:05 gateway sshd[67557]: Disconnect from 10.0.0.10 port 3576: Too many authentication failures
+ott 15 20:03:05 edge01 sshd[88998]: Connection closed by authenticating user root 192.168.1.55 port 22388 [preauth]
+ott 15 20:03:05 bastion sshd[1746]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=deploy
+ott 15 20:03:05 edge01 sshd[87790]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:03:05 edge01 sshd[3920]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:03:05 edge01 sshd[98906]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=user1
+ott 15 20:03:05 ssh-host sshd[14971]: error: maximum authentication attempts exceeded for guest from 10.0.0.10 port 55755 ssh2
+ott 15 20:03:05 bastion sshd[74673]: Disconnect from 198.51.100.23 port 57708: Too many authentication failures
+ott 15 20:03:05 gateway sshd[76686]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 20:03:05 edge01 sshd[4060]: Connection closed by authenticating user oracle 192.168.1.100 port 59127 [preauth]
+ott 15 20:03:05 bastion sshd[72681]: Disconnect from 10.0.0.10 port 6369: Too many authentication failures
+ott 15 20:03:05 server1 sshd[69916]: Connection closed by authenticating user admin 2001:0db8:85a3::8a2e:0370:7334 port 11091 [preauth]
+ott 15 20:03:05 edge01 sshd[28490]: error: maximum authentication attempts exceeded for backup from 198.51.100.23 port 11694 ssh2
+ott 15 20:03:05 server1 sshd[37489]: Did not receive identification string from 198.51.100.23
+ott 15 20:03:05 edge01 sshd[14378]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=admin
+ott 15 20:03:05 server1 sshd[86981]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=svc_backup
+ott 15 20:03:05 server1 sshd[31947]: error: maximum authentication attempts exceeded for backup from 10.1.1.8 port 21510 ssh2
+ott 15 20:03:05 ssh-host sshd[43265]: Did not receive identification string from 10.0.0.10

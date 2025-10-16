@@ -1,0 +1,35 @@
+ott 15 20:02:42 ssh-host sshd[97170]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
+ott 15 20:02:42 ssh-host sshd[55562]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:42 gateway sshd[60065]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 20:02:42 edge01 sshd[93472]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+ott 15 20:02:42 bastion sshd[68901]: Failed password for svc_backup from fe80::1ff:fe23:4567:890a port 23787 ssh2
+ott 15 20:02:42 server1 sshd[10265]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=guest
+ott 15 20:02:42 bastion sshd[99877]: Connection closed by authenticating user deploy 10.1.1.8 port 59519 [preauth]
+ott 15 20:02:42 server1 sshd[89319]: Failed publickey for root from 192.168.1.100 port 32493 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:42 ssh-host sshd[10039]: Invalid user backup from 192.168.1.55 port 18880
+ott 15 20:02:42 server1 sshd[68642]: Failed password for deploy from 192.168.1.100 port 60228 ssh2
+ott 15 20:02:42 server1 sshd[68642]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=192.168.1.100
+ott 15 20:02:42 server1 sshd[65898]: Connection closed by authenticating user oracle 10.0.0.10 port 39209 [preauth]
+ott 15 20:02:42 server1 sshd[65898]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=10.0.0.10
+ott 15 20:02:42 ssh-host sshd[60787]: Did not receive identification string from 192.168.1.100
+ott 15 20:02:42 edge01 sshd[84703]: error: maximum authentication attempts exceeded for backup from 198.51.100.23 port 15271 ssh2
+ott 15 20:02:42 gateway sshd[72072]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:42 gateway sshd[45824]: Failed password for svc_backup from 172.16.0.2 port 16329 ssh2
+ott 15 20:02:42 gateway sshd[84516]: error: maximum authentication attempts exceeded for oracle from 198.51.100.23 port 20593 ssh2
+ott 15 20:02:42 bastion sshd[62979]: error: maximum authentication attempts exceeded for oracle from 192.168.1.55 port 4836 ssh2
+ott 15 20:02:42 ssh-host sshd[68484]: Connection closed by authenticating user guest 10.1.1.8 port 47341 [preauth]
+ott 15 20:02:42 edge01 sshd[86080]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=test
+ott 15 20:02:42 bastion sshd[48038]: Failed publickey for oracle from fe80::1ff:fe23:4567:890a port 6214 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:42 edge01 sshd[63752]: Disconnect from 192.168.1.55 port 11801: Too many authentication failures
+ott 15 20:02:42 server1 sshd[65396]: error: maximum authentication attempts exceeded for svc_backup from 172.16.0.2 port 14796 ssh2
+ott 15 20:02:42 bastion sshd[63204]: reverse mapping checking getaddrinfo for 10.0.0.10 failed - possible spoofing?
+ott 15 20:02:42 bastion sshd[48563]: Did not receive identification string from 192.168.1.100
+ott 15 20:02:42 gateway sshd[23452]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+ott 15 20:02:42 ssh-host sshd[20216]: Failed publickey for user1 from 2001:0db8:85a3::8a2e:0370:7334 port 13383 ssh2: RSA SHA256:abcdef...
+ott 15 20:02:42 gateway sshd[29486]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:02:42 edge01 sshd[95901]: Connection closed by authenticating user www-data 10.0.0.10 port 64810 [preauth]
+ott 15 20:02:42 edge01 sshd[69585]: Accepted password for root from 198.51.100.23 port 39133 ssh2
+ott 15 20:02:42 edge01 sshd[69585]: pam_unix(sshd:auth): authentication failure; user=root rhost=198.51.100.23
+ott 15 20:02:42 gateway sshd[50251]: Failed password for invalid user deploy from 2001:0db8:85a3::8a2e:0370:7334 port 41407 ssh2
+ott 15 20:02:42 bastion sshd[56524]: Disconnect from 172.16.0.2 port 65139: Too many authentication failures
+ott 15 20:02:43 bastion sshd[12155]: Failed password for invalid user root from 10.1.1.8 port 52096 ssh2

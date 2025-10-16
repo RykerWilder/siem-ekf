@@ -1,0 +1,9 @@
+ott 15 19:58:44 bastion sshd[57130]: error: maximum authentication attempts exceeded for backup from 10.0.0.10 port 13866 ssh2
+ott 15 19:58:44 server1 sshd[37380]: reverse mapping checking getaddrinfo for 192.168.1.55 failed - possible spoofing?
+ott 15 19:58:44 bastion sshd[97293]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:44 bastion sshd[97293]: pam_unix(sshd:auth): authentication failure; user=backup rhost=2001:0db8:85a3::8a2e:0370:7334
+ott 15 19:58:44 bastion sshd[57519]: Accepted password for svc_backup from 192.168.1.55 port 8293 ssh2
+ott 15 19:58:44 edge01 sshd[11594]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:44 edge01 sshd[74911]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.55  user=admin
+ott 15 19:58:44 server1 sshd[61972]: Failed password for invalid user backup from 10.1.1.8 port 8653 ssh2
+ott 15 19:58:44 bastion sshd[95440]: Failed password for oracle from fe80::1ff:fe23:4567:890a port 17346 ssh2

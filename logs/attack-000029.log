@@ -1,0 +1,14 @@
+ott 15 19:58:06 server1 sshd[18478]: Failed password for oracle from 192.168.1.55 port 55376 ssh2
+ott 15 19:58:06 edge01 sshd[89099]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=root
+ott 15 19:58:06 ssh-host sshd[48050]: error: maximum authentication attempts exceeded for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 40761 ssh2
+ott 15 19:58:06 ssh-host sshd[36801]: Connection closed by authenticating user root 198.51.100.23 port 18518 [preauth]
+ott 15 19:58:06 server1 sshd[90635]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=www-data
+ott 15 19:58:07 bastion sshd[35350]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=admin
+ott 15 19:58:07 ssh-host sshd[49276]: Accepted password for www-data from 203.0.113.45 port 56902 ssh2
+ott 15 19:58:07 edge01 sshd[2906]: Failed password for invalid user www-data from 192.168.1.55 port 50999 ssh2
+ott 15 19:58:07 gateway sshd[95534]: error: maximum authentication attempts exceeded for admin from 172.16.0.2 port 8891 ssh2
+ott 15 19:58:07 ssh-host sshd[78247]: Connection closed by authenticating user backup 10.1.1.8 port 51733 [preauth]
+ott 15 19:58:07 gateway sshd[43584]: Disconnect from 2001:0db8:85a3::8a2e:0370:7334 port 47809: Too many authentication failures
+ott 15 19:58:07 gateway sshd[6168]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 19:58:07 gateway sshd[69055]: Accepted password for oracle from 10.1.1.8 port 57063 ssh2
+ott 15 19:58:07 ssh-host sshd[79280]: Invalid user root from 10.1.1.8 port 2888

@@ -1,0 +1,18 @@
+ott 15 20:03:58 ssh-host sshd[40092]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:58 edge01 sshd[80211]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:03:58 edge01 sshd[80211]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=192.168.1.100
+ott 15 20:03:58 bastion sshd[33802]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=root
+ott 15 20:03:58 edge01 sshd[14453]: Failed password for invalid user guest from 172.16.0.2 port 50013 ssh2
+ott 15 20:03:58 edge01 sshd[59155]: Connection closed by authenticating user user1 fe80::1ff:fe23:4567:890a port 62831 [preauth]
+ott 15 20:03:58 server1 sshd[10011]: error: maximum authentication attempts exceeded for backup from fe80::1ff:fe23:4567:890a port 62888 ssh2
+ott 15 20:03:58 ssh-host sshd[79788]: error: maximum authentication attempts exceeded for www-data from 192.168.1.55 port 57421 ssh2
+ott 15 20:03:58 server1 sshd[4196]: Connection closed by authenticating user oracle 10.1.1.8 port 57268 [preauth]
+ott 15 20:03:58 bastion sshd[22722]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:03:58 edge01 sshd[34206]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:03:58 edge01 sshd[80715]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=guest
+ott 15 20:03:58 edge01 sshd[19496]: Disconnect from 10.1.1.8 port 5670: Too many authentication failures
+ott 15 20:03:58 edge01 sshd[19496]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=10.1.1.8
+ott 15 20:03:58 bastion sshd[63985]: Invalid user backup from 203.0.113.45 port 26363
+ott 15 20:03:58 server1 sshd[91572]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:03:58 edge01 sshd[76595]: Accepted password for backup from 2001:0db8:85a3::8a2e:0370:7334 port 9293 ssh2
+ott 15 20:03:58 server1 sshd[65504]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key

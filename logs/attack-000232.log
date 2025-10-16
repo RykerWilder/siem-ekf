@@ -1,0 +1,11 @@
+ott 15 20:04:15 edge01 sshd[91629]: Disconnect from 10.1.1.8 port 3790: Too many authentication failures
+ott 15 20:04:15 edge01 sshd[91629]: pam_unix(sshd:auth): authentication failure; user=admin rhost=10.1.1.8
+ott 15 20:04:15 ssh-host sshd[37872]: Connection closed by authenticating user user1 10.1.1.8 port 38711 [preauth]
+ott 15 20:04:15 ssh-host sshd[37872]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=10.1.1.8
+ott 15 20:04:16 server1 sshd[35931]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=user1
+ott 15 20:04:16 ssh-host sshd[1222]: Failed publickey for deploy from fe80::1ff:fe23:4567:890a port 19237 ssh2: RSA SHA256:abcdef...
+ott 15 20:04:16 edge01 sshd[82949]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:04:16 ssh-host sshd[4255]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=oracle
+ott 15 20:04:16 server1 sshd[96061]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:04:16 edge01 sshd[10646]: Failed password for admin from 192.168.1.100 port 16417 ssh2
+ott 15 20:04:16 server1 sshd[68367]: error: maximum authentication attempts exceeded for user1 from 172.16.0.2 port 16551 ssh2

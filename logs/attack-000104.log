@@ -1,0 +1,38 @@
+ott 15 20:00:25 edge01 sshd[30542]: Failed password for www-data from 192.168.1.55 port 18370 ssh2
+ott 15 20:00:25 server1 sshd[44143]: error: maximum authentication attempts exceeded for oracle from 192.168.1.100 port 13031 ssh2
+ott 15 20:00:25 ssh-host sshd[2592]: Failed password for guest from 2001:0db8:85a3::8a2e:0370:7334 port 41461 ssh2
+ott 15 20:00:25 edge01 sshd[5596]: error: maximum authentication attempts exceeded for guest from 2001:0db8:85a3::8a2e:0370:7334 port 36998 ssh2
+ott 15 20:00:25 server1 sshd[38363]: error: maximum authentication attempts exceeded for user1 from 198.51.100.23 port 2919 ssh2
+ott 15 20:00:25 gateway sshd[10188]: Failed password for invalid user www-data from 192.168.1.100 port 53564 ssh2
+ott 15 20:00:25 bastion sshd[58686]: Connection closed by authenticating user admin 172.16.0.2 port 43019 [preauth]
+ott 15 20:00:25 server1 sshd[42244]: Connection closed by authenticating user guest fe80::1ff:fe23:4567:890a port 44688 [preauth]
+ott 15 20:00:25 gateway sshd[69192]: Accepted password for user1 from 2001:0db8:85a3::8a2e:0370:7334 port 50590 ssh2
+ott 15 20:00:25 edge01 sshd[16638]: Accepted password for test from 10.0.0.10 port 7743 ssh2
+ott 15 20:00:25 gateway sshd[77313]: Connection closed by authenticating user test 192.168.1.100 port 47898 [preauth]
+ott 15 20:00:25 server1 sshd[47511]: Accepted password for svc_backup from 172.16.0.2 port 62769 ssh2
+ott 15 20:00:25 gateway sshd[87751]: Disconnect from 10.1.1.8 port 57010: Too many authentication failures
+ott 15 20:00:25 gateway sshd[87751]: pam_unix(sshd:auth): authentication failure; user=test rhost=10.1.1.8
+ott 15 20:00:25 bastion sshd[92444]: Failed password for invalid user backup from 198.51.100.23 port 7213 ssh2
+ott 15 20:00:25 server1 sshd[41521]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=user1
+ott 15 20:00:25 gateway sshd[46150]: Accepted password for backup from 203.0.113.45 port 12521 ssh2
+ott 15 20:00:25 ssh-host sshd[36983]: Accepted password for www-data from 172.16.0.2 port 20228 ssh2
+ott 15 20:00:25 edge01 sshd[47747]: Invalid user test from fe80::1ff:fe23:4567:890a port 59365
+ott 15 20:00:25 bastion sshd[31191]: Failed password for oracle from 172.16.0.2 port 63374 ssh2
+ott 15 20:00:25 server1 sshd[11715]: Failed password for invalid user www-data from 192.168.1.55 port 34722 ssh2
+ott 15 20:00:25 gateway sshd[81618]: error: maximum authentication attempts exceeded for www-data from 10.1.1.8 port 6558 ssh2
+ott 15 20:00:25 gateway sshd[97966]: Disconnect from 10.0.0.10 port 27098: Too many authentication failures
+ott 15 20:00:25 edge01 sshd[72989]: Did not receive identification string from 192.168.1.100
+ott 15 20:00:25 edge01 sshd[26962]: Failed publickey for admin from 192.168.1.100 port 36531 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:25 edge01 sshd[91938]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:00:25 ssh-host sshd[3673]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.100  user=root
+ott 15 20:00:25 bastion sshd[18019]: Connection closed by authenticating user user1 fe80::1ff:fe23:4567:890a port 18965 [preauth]
+ott 15 20:00:25 server1 sshd[94794]: Disconnect from 10.1.1.8 port 56594: Too many authentication failures
+ott 15 20:00:25 bastion sshd[84480]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:25 gateway sshd[86725]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
+ott 15 20:00:25 bastion sshd[5911]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:25 server1 sshd[30173]: Accepted password for user1 from 10.0.0.10 port 58859 ssh2
+ott 15 20:00:25 server1 sshd[30173]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=10.0.0.10
+ott 15 20:00:25 ssh-host sshd[9607]: Invalid user oracle from 192.168.1.100 port 2915
+ott 15 20:00:25 bastion sshd[48245]: Invalid user test from 198.51.100.23 port 21896
+ott 15 20:00:25 gateway sshd[76944]: Accepted password for backup from 203.0.113.45 port 53874 ssh2
+ott 15 20:00:25 gateway sshd[50240]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ff:fe23:4567:890a  user=deploy

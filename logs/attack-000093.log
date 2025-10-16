@@ -1,0 +1,18 @@
+ott 15 20:00:08 ssh-host sshd[45242]: error: maximum authentication attempts exceeded for root from 198.51.100.23 port 9895 ssh2
+ott 15 20:00:08 edge01 sshd[42730]: Failed password for invalid user www-data from 10.0.0.10 port 17456 ssh2
+ott 15 20:00:08 edge01 sshd[33527]: Connection closed by authenticating user www-data 203.0.113.45 port 5496 [preauth]
+ott 15 20:00:08 ssh-host sshd[6908]: Accepted password for user1 from 172.16.0.2 port 24167 ssh2
+ott 15 20:00:08 edge01 sshd[39927]: Failed password for admin from 192.168.1.55 port 47003 ssh2
+ott 15 20:00:08 server1 sshd[26287]: Failed publickey for oracle from 10.1.1.8 port 54088 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:08 server1 sshd[26287]: pam_unix(sshd:auth): authentication failure; user=oracle rhost=10.1.1.8
+ott 15 20:00:08 server1 sshd[68721]: Failed publickey for test from 198.51.100.23 port 49393 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:08 server1 sshd[96474]: Accepted password for user1 from 192.168.1.55 port 38727 ssh2
+ott 15 20:00:08 gateway sshd[58401]: Failed publickey for user1 from 198.51.100.23 port 6459 ssh2: RSA SHA256:abcdef...
+ott 15 20:00:08 gateway sshd[9837]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:08 gateway sshd[97555]: Did not receive identification string from 192.168.1.100
+ott 15 20:00:08 gateway sshd[86553]: error: maximum authentication attempts exceeded for user1 from 203.0.113.45 port 33916 ssh2
+ott 15 20:00:08 server1 sshd[10421]: error: maximum authentication attempts exceeded for admin from 192.168.1.100 port 3380 ssh2
+ott 15 20:00:08 gateway sshd[21963]: Accepted password for www-data from 10.1.1.8 port 58156 ssh2
+ott 15 20:00:08 gateway sshd[21963]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=10.1.1.8
+ott 15 20:00:08 ssh-host sshd[61261]: Did not receive identification string from 10.1.1.8
+ott 15 20:00:09 bastion sshd[44229]: Connection closed by authenticating user backup 198.51.100.23 port 27992 [preauth]

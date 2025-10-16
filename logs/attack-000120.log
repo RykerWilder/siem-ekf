@@ -1,0 +1,27 @@
+ott 15 20:00:54 edge01 sshd[31182]: Failed password for oracle from 10.0.0.10 port 43127 ssh2
+ott 15 20:00:54 gateway sshd[58376]: error: maximum authentication attempts exceeded for backup from fe80::1ff:fe23:4567:890a port 47374 ssh2
+ott 15 20:00:54 ssh-host sshd[27943]: Did not receive identification string from fe80::1ff:fe23:4567:890a
+ott 15 20:00:54 edge01 sshd[83694]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
+ott 15 20:00:54 server1 sshd[5987]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
+ott 15 20:00:54 gateway sshd[8696]: Disconnect from 10.1.1.8 port 19138: Too many authentication failures
+ott 15 20:00:54 gateway sshd[8696]: pam_unix(sshd:auth): authentication failure; user=user1 rhost=10.1.1.8
+ott 15 20:00:54 ssh-host sshd[30268]: reverse mapping checking getaddrinfo for 192.168.1.100 failed - possible spoofing?
+ott 15 20:00:54 bastion sshd[16376]: Connection closed by authenticating user test 192.168.1.100 port 23521 [preauth]
+ott 15 20:00:54 gateway sshd[32700]: Failed password for invalid user test from 2001:0db8:85a3::8a2e:0370:7334 port 55079 ssh2
+ott 15 20:00:54 ssh-host sshd[10661]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.2  user=test
+ott 15 20:00:54 ssh-host sshd[46503]: Disconnect from 10.1.1.8 port 14155: Too many authentication failures
+ott 15 20:00:54 server1 sshd[70110]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
+ott 15 20:00:54 server1 sshd[55109]: Invalid user svc_backup from 192.168.1.100 port 25061
+ott 15 20:00:54 edge01 sshd[54444]: Failed password for user1 from 198.51.100.23 port 48754 ssh2
+ott 15 20:00:54 gateway sshd[4341]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=www-data
+ott 15 20:00:54 ssh-host sshd[17017]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=deploy
+ott 15 20:00:54 gateway sshd[95693]: error: maximum authentication attempts exceeded for admin from 192.168.1.55 port 32848 ssh2
+ott 15 20:00:54 gateway sshd[2361]: error: maximum authentication attempts exceeded for www-data from 203.0.113.45 port 33769 ssh2
+ott 15 20:00:54 ssh-host sshd[70610]: Invalid user www-data from 10.1.1.8 port 8769
+ott 15 20:00:54 server1 sshd[44060]: error: maximum authentication attempts exceeded for admin from 198.51.100.23 port 30280 ssh2
+ott 15 20:00:54 gateway sshd[59260]: Did not receive identification string from 172.16.0.2
+ott 15 20:00:54 gateway sshd[30992]: Accepted password for test from 198.51.100.23 port 40680 ssh2
+ott 15 20:00:54 bastion sshd[81079]: Failed password for invalid user admin from 10.1.1.8 port 42012 ssh2
+ott 15 20:00:54 bastion sshd[68924]: Invalid user guest from 192.168.1.100 port 26354
+ott 15 20:00:54 bastion sshd[68924]: pam_unix(sshd:auth): authentication failure; user=guest rhost=192.168.1.100
+ott 15 20:00:54 ssh-host sshd[57336]: Failed password for invalid user deploy from 172.16.0.2 port 29398 ssh2
