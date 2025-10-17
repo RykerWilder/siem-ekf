@@ -1,9 +1,0 @@
-ott 15 20:01:51 bastion sshd[7773]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
-ott 15 20:01:51 server1 sshd[50957]: Invalid user backup from 10.1.1.8 port 55169
-ott 15 20:01:51 bastion sshd[10415]: Failed publickey for oracle from 10.1.1.8 port 14353 ssh2: RSA SHA256:abcdef...
-ott 15 20:01:51 ssh-host sshd[99949]: Did not receive identification string from 10.0.0.10
-ott 15 20:01:51 server1 sshd[45969]: Accepted password for www-data from 2001:0db8:85a3::8a2e:0370:7334 port 21619 ssh2
-ott 15 20:01:51 edge01 sshd[54456]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=oracle
-ott 15 20:01:51 server1 sshd[76372]: Did not receive identification string from fe80::1ff:fe23:4567:890a
-ott 15 20:01:51 edge01 sshd[93094]: Did not receive identification string from 10.1.1.8
-ott 15 20:01:51 server1 sshd[51533]: Failed password for invalid user svc_backup from 10.0.0.10 port 36518 ssh2

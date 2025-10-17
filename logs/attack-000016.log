@@ -1,7 +1,0 @@
-ott 15 19:57:41 ssh-host sshd[3038]: Connection closed by authenticating user www-data fe80::1ff:fe23:4567:890a port 52322 [preauth]
-ott 15 19:57:41 server1 sshd[81140]: reverse mapping checking getaddrinfo for 172.16.0.2 failed - possible spoofing?
-ott 15 19:57:41 bastion sshd[20060]: Accepted password for admin from 10.0.0.10 port 34143 ssh2
-ott 15 19:57:41 bastion sshd[97671]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?
-ott 15 19:57:41 bastion sshd[97671]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=198.51.100.23
-ott 15 19:57:41 server1 sshd[20856]: Failed password for test from 192.168.1.100 port 16137 ssh2
-ott 15 19:57:41 ssh-host sshd[55683]: Invalid user backup from 172.16.0.2 port 14092

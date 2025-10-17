@@ -1,7 +1,0 @@
-ott 15 20:00:48 gateway sshd[33558]: Failed password for www-data from 172.16.0.2 port 5965 ssh2
-ott 15 20:00:48 edge01 sshd[40073]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
-ott 15 20:00:48 edge01 sshd[40073]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=10.1.1.8
-ott 15 20:00:48 edge01 sshd[68967]: Failed publickey for admin from 172.16.0.2 port 22298 ssh2: RSA SHA256:abcdef...
-ott 15 20:00:48 server1 sshd[81182]: Failed publickey for guest from 10.1.1.8 port 58317 ssh2: RSA SHA256:abcdef...
-ott 15 20:00:48 gateway sshd[88634]: Failed password for deploy from 172.16.0.2 port 56728 ssh2
-ott 15 20:00:48 edge01 sshd[70660]: error: maximum authentication attempts exceeded for svc_backup from 203.0.113.45 port 3028 ssh2

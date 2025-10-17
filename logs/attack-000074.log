@@ -1,7 +1,0 @@
-ott 15 19:59:34 bastion sshd[47781]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
-ott 15 19:59:34 gateway sshd[39559]: Accepted password for admin from 192.168.1.55 port 13166 ssh2
-ott 15 19:59:34 ssh-host sshd[99303]: error: maximum authentication attempts exceeded for www-data from 10.1.1.8 port 36764 ssh2
-ott 15 19:59:34 ssh-host sshd[99303]: pam_unix(sshd:auth): authentication failure; user=www-data rhost=10.1.1.8
-ott 15 19:59:34 edge01 sshd[60527]: Failed publickey for admin from 2001:0db8:85a3::8a2e:0370:7334 port 24651 ssh2: RSA SHA256:abcdef...
-ott 15 19:59:34 server1 sshd[11034]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=backup
-ott 15 19:59:34 server1 sshd[62269]: reverse mapping checking getaddrinfo for 198.51.100.23 failed - possible spoofing?

@@ -1,9 +1,0 @@
-ott 15 20:00:21 edge01 sshd[40536]: Did not receive identification string from 2001:0db8:85a3::8a2e:0370:7334
-ott 15 20:00:21 ssh-host sshd[90788]: Accepted password for admin from 2001:0db8:85a3::8a2e:0370:7334 port 60961 ssh2
-ott 15 20:00:21 gateway sshd[39312]: Failed password for deploy from 192.168.1.55 port 18338 ssh2
-ott 15 20:00:21 bastion sshd[60508]: Failed password for deploy from 10.1.1.8 port 1277 ssh2
-ott 15 20:00:21 server1 sshd[21106]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
-ott 15 20:00:21 edge01 sshd[26722]: Invalid user admin from 203.0.113.45 port 32244
-ott 15 20:00:21 server1 sshd[80702]: Failed password for invalid user test from 172.16.0.2 port 52710 ssh2
-ott 15 20:00:21 server1 sshd[80702]: pam_unix(sshd:auth): authentication failure; user=test rhost=172.16.0.2
-ott 15 20:00:21 edge01 sshd[33015]: Failed password for backup from 10.1.1.8 port 60043 ssh2

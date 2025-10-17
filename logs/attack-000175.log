@@ -1,9 +1,0 @@
-ott 15 20:02:32 server1 sshd[26835]: Accepted password for guest from 192.168.1.55 port 24955 ssh2
-ott 15 20:02:32 edge01 sshd[49673]: error: maximum authentication attempts exceeded for test from 198.51.100.23 port 59479 ssh2
-ott 15 20:02:32 server1 sshd[33331]: error: maximum authentication attempts exceeded for www-data from fe80::1ff:fe23:4567:890a port 20051 ssh2
-ott 15 20:02:32 gateway sshd[45581]: Failed password for invalid user test from 172.16.0.2 port 28938 ssh2
-ott 15 20:02:32 bastion sshd[41827]: Disconnect from 192.168.1.100 port 20878: Too many authentication failures
-ott 15 20:02:33 gateway sshd[44685]: Failed publickey for backup from 10.0.0.10 port 29318 ssh2: RSA SHA256:abcdef...
-ott 15 20:02:33 ssh-host sshd[20596]: Disconnect from fe80::1ff:fe23:4567:890a port 30268: Too many authentication failures
-ott 15 20:02:33 ssh-host sshd[96830]: error: maximum authentication attempts exceeded for guest from 203.0.113.45 port 32868 ssh2
-ott 15 20:02:33 ssh-host sshd[67058]: Accepted password for root from 192.168.1.55 port 24561 ssh2

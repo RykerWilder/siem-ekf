@@ -1,6 +1,0 @@
-ott 15 20:00:46 bastion sshd[46429]: Did not receive identification string from 10.1.1.8
-ott 15 20:00:46 ssh-host sshd[14004]: Disconnect from 198.51.100.23 port 55534: Too many authentication failures
-ott 15 20:00:46 ssh-host sshd[68166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.10  user=svc_backup
-ott 15 20:00:46 bastion sshd[95996]: Disconnect from 10.0.0.10 port 10041: Too many authentication failures
-ott 15 20:00:46 bastion sshd[95996]: pam_unix(sshd:auth): authentication failure; user=backup rhost=10.0.0.10
-ott 15 20:00:46 gateway sshd[96746]: Connection closed by authenticating user user1 192.168.1.55 port 25224 [preauth]

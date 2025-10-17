@@ -1,5 +1,0 @@
-ott 15 20:00:02 ssh-host sshd[78039]: Failed publickey for user1 from fe80::1ff:fe23:4567:890a port 50879 ssh2: RSA SHA256:abcdef...
-ott 15 20:00:02 edge01 sshd[29307]: Invalid user www-data from 10.0.0.10 port 64554
-ott 15 20:00:02 bastion sshd[38201]: reverse mapping checking getaddrinfo for 203.0.113.45 failed - possible spoofing?
-ott 15 20:00:02 ssh-host sshd[96231]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.1.8  user=oracle
-ott 15 20:00:02 gateway sshd[53217]: Connection closed by authenticating user www-data 10.1.1.8 port 33414 [preauth]

@@ -1,5 +1,0 @@
-ott 15 20:00:20 ssh-host sshd[93824]: Failed password for backup from 172.16.0.2 port 63360 ssh2
-ott 15 20:00:20 ssh-host sshd[82370]: Accepted password for guest from 172.16.0.2 port 2118 ssh2
-ott 15 20:00:20 edge01 sshd[67262]: Failed publickey for deploy from 203.0.113.45 port 10355 ssh2: RSA SHA256:abcdef...
-ott 15 20:00:20 server1 sshd[2810]: Failed password for oracle from 198.51.100.23 port 8015 ssh2
-ott 15 20:00:20 bastion sshd[59252]: Did not receive identification string from 198.51.100.23

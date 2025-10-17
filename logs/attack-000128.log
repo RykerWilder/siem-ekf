@@ -1,6 +1,0 @@
-ott 15 20:01:11 edge01 sshd[12931]: Failed password for admin from 192.168.1.55 port 60927 ssh2
-ott 15 20:01:11 gateway sshd[2035]: Invalid user oracle from 10.1.1.8 port 15242
-ott 15 20:01:11 bastion sshd[40874]: Did not receive identification string from fe80::1ff:fe23:4567:890a
-ott 15 20:01:11 bastion sshd[5725]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?
-ott 15 20:01:11 bastion sshd[5725]: pam_unix(sshd:auth): authentication failure; user=svc_backup rhost=fe80::1ff:fe23:4567:890a
-ott 15 20:01:11 ssh-host sshd[93531]: Failed password for backup from 192.168.1.55 port 26606 ssh2

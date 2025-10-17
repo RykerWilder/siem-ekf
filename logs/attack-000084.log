@@ -1,6 +1,0 @@
-ott 15 19:59:52 gateway sshd[48164]: reverse mapping checking getaddrinfo for 10.1.1.8 failed - possible spoofing?
-ott 15 19:59:52 edge01 sshd[13241]: Invalid user deploy from fe80::1ff:fe23:4567:890a port 48494
-ott 15 19:59:52 bastion sshd[94627]: Accepted password for root from 2001:0db8:85a3::8a2e:0370:7334 port 46100 ssh2
-ott 15 19:59:52 bastion sshd[96798]: Invalid user svc_backup from 203.0.113.45 port 18820
-ott 15 19:59:52 server1 sshd[3834]: Did not receive identification string from 172.16.0.2
-ott 15 19:59:52 edge01 sshd[17635]: Accepted password for guest from 203.0.113.45 port 50874 ssh2

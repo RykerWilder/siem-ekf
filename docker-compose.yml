@@ -22,7 +22,7 @@ services:
     image: docker.elastic.co/beats/filebeat:8.7.0
     user: root
     volumes:
-      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - ./filebeat_tokenizer.yml:/usr/share/filebeat/filebeat.yml:ro
       - ./logs:/var/log/inputlogs:ro
     depends_on:
       - elasticsearch

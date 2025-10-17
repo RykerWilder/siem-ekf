@@ -1,6 +1,0 @@
-ott 15 20:02:26 bastion sshd[87191]: Disconnect from 192.168.1.55 port 8443: Too many authentication failures
-ott 15 20:02:26 bastion sshd[87191]: pam_unix(sshd:auth): authentication failure; user=root rhost=192.168.1.55
-ott 15 20:02:26 server1 sshd[58036]: Accepted password for backup from 192.168.1.100 port 19617 ssh2
-ott 15 20:02:26 gateway sshd[90433]: Failed password for invalid user test from fe80::1ff:fe23:4567:890a port 23729 ssh2
-ott 15 20:02:26 edge01 sshd[37196]: error: Could not load host key: /etc/ssh/ssh_host_rsa_key
-ott 15 20:02:26 ssh-host sshd[17186]: Failed password for backup from 172.16.0.2 port 16530 ssh2

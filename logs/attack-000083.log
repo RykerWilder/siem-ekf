@@ -1,6 +1,0 @@
-ott 15 19:59:50 bastion sshd[3655]: Did not receive identification string from 203.0.113.45
-ott 15 19:59:50 edge01 sshd[17340]: Failed password for deploy from 203.0.113.45 port 36443 ssh2
-ott 15 19:59:50 edge01 sshd[17340]: pam_unix(sshd:auth): authentication failure; user=deploy rhost=203.0.113.45
-ott 15 19:59:50 edge01 sshd[38575]: error: maximum authentication attempts exceeded for www-data from 172.16.0.2 port 60916 ssh2
-ott 15 19:59:50 server1 sshd[7878]: Did not receive identification string from 203.0.113.45
-ott 15 19:59:50 ssh-host sshd[67431]: reverse mapping checking getaddrinfo for fe80::1ff:fe23:4567:890a failed - possible spoofing?

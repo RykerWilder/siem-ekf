@@ -1,6 +1,0 @@
-ott 15 19:59:32 ssh-host sshd[18506]: Failed password for admin from 172.16.0.2 port 25521 ssh2
-ott 15 19:59:32 edge01 sshd[38599]: Failed password for backup from 203.0.113.45 port 57334 ssh2
-ott 15 19:59:32 ssh-host sshd[65039]: Failed publickey for deploy from fe80::1ff:fe23:4567:890a port 29208 ssh2: RSA SHA256:abcdef...
-ott 15 19:59:32 ssh-host sshd[53840]: Did not receive identification string from 10.1.1.8
-ott 15 19:59:32 gateway sshd[9913]: Failed password for invalid user deploy from fe80::1ff:fe23:4567:890a port 54393 ssh2
-ott 15 19:59:32 ssh-host sshd[26559]: Invalid user guest from 2001:0db8:85a3::8a2e:0370:7334 port 17973
