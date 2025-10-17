@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Simula errori SSH scrivendo ogni volta un nuovo file di log
-# Per eseguire: ./simula_errori_v1.sh
+# Simulate SSH errors by writing a new log file each time
+# To run: ./simulate_errors_v1.sh
 
 logDir="./logs"
 counter=0
@@ -9,18 +9,18 @@ counter=0
 users=("root" "admin" "test" "user1" "guest")
 ips=("192.168.1.100" "10.0.0.10" "172.16.0.2" "192.168.1.55" "10.1.1.8")
 
-# Crea array di porte
+# Create port array
 ports=()
 for port in $(seq 1024 65535); do
     ports+=($port)
 done
 
-# Crea directory logs se non esiste
+# Create logs directory if it does not exist
 if [ ! -d "$logDir" ]; then
     mkdir -p "$logDir"
 fi
 
-# Funzione per ottenere elemento random da array
+# Function to get random element from array
 random_element() {
     local arr=("${!1}")
     local size=${#arr[@]}
@@ -39,9 +39,9 @@ while true; do
     ((counter++))
     logFile="$logDir/attack-$(printf "%03d" $counter).log"
     echo "$line" > "$logFile"
-    echo "Log generato: $line in $logFile"
-    
-    # Sleep tra 1 e 3 secondi
+    echo "Log generated: $line in $logFile"
+
+    # Sleep between 1 and 3 seconds
     sleepTime=$((1 + RANDOM % 3))
     sleep $sleepTime
 done

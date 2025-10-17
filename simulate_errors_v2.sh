@@ -1,45 +1,45 @@
 #!/bin/bash
 
 #
-# Generatore di log SSH per demo SIEM: più eventi casuali per file e rotazione.
-# Per eseguire: ./simula_errori_v2.sh
+# SSH log generator for SIEM demo: multiple random events per file and rotation.
+# To run: ./simulate_errors_v2.sh
 #
 
-# --- CONFIGURAZIONE ---
+# --- CONFIGURATION ---
 LogDir="./logs"
 counter=0
-MaxFiles=""               # numero massimo file da creare, "" = infinito
-MinSleep=1                # sleep tra file in secondi
+MaxFiles=""               # maximum number of files to create, "" = infinite
+MinSleep=1                # sleep between files in seconds
 MaxSleep=3
 BurstProbability=0.12
 PortScanBurstMin=5
 PortScanBurstMax=25
 HostnamePool=("server1" "gateway" "bastion" "edge01" "ssh-host")
 
-# --- CONTROLLO SU COME SCRIVERE I FILE ---
-UseSingleFile=false       # false = molti file (uno per "batch"), true = un singolo file rotante/appending
+# --- FILE WRITING CONTROL ---
+UseSingleFile=false       # false = multiple files (one per "batch"), true = single rotating/appending file
 SingleFileName="simulated-ssh.log"
-RotateByMaxLines=true     # applicabile solo se $UseSingleFile = true
-MaxLinesPerSingleFile=10000  # rotazione quando il file raggiunge questo numero di linee
-RotateBySizeBytes=false   # alternativa: ruota per dimensione (in bytes)
-MaxFileSizeBytes=5242880  # 5MB in bytes (valida solo se $RotateBySizeBytes = true)
+RotateByMaxLines=true     # applicable only if $UseSingleFile = true
+MaxLinesPerSingleFile=10000  # rotate when file reaches this number of lines
+RotateBySizeBytes=false   # alternative: rotate by size (in bytes)
+MaxFileSizeBytes=5242880  # 5MB in bytes (valid only if $RotateBySizeBytes = true)
 
-# --- EVENTI PER FILE ---
-MinEventsPerFile=5        # numero minimo di eventi scritti in ogni file (batch)
-MaxEventsPerFile=40       # massimo
+# --- EVENTS PER FILE ---
+MinEventsPerFile=5        # minimum number of events written in each file (batch)
+MaxEventsPerFile=40       # maximum
 
-# --- LISTE DATI ---
+# --- DATA LISTS ---
 users=("root" "admin" "test" "user1" "guest" "svc_backup" "deploy" "oracle" "www-data" "backup")
 ips=("192.168.1.100" "10.0.0.10" "172.16.0.2" "192.168.1.55" "10.1.1.8" "203.0.113.45" "198.51.100.23")
 ipv6s=("2001:0db8:85a3::8a2e:0370:7334" "fe80::1ff:fe23:4567:890a")
 
-# Genera array di porte
+# Generate ports array
 ports=()
 for port in $(seq 1024 65535); do
     ports+=($port)
 done
 
-# --- FUNZIONI UTILI ---
+# --- UTILITY FUNCTIONS ---
 ensure_logdir() {
     local dir="$1"
     if [ ! -d "$dir" ]; then
@@ -48,13 +48,13 @@ ensure_logdir() {
 }
 
 write_log_to_file() {
-    local lines=("${!1}")  # Passa array by name
+    local lines=("${!1}")  # Pass array by name
     local filename="$2"
     local dir=$(dirname "$filename")
     
     ensure_logdir "$dir"
     printf "%s\n" "${lines[@]}" >> "$filename"
-    echo -e "\033[32mWrote ${#lines[@]} eventi in $filename\033[0m"
+    echo -e "\033[32mWrote ${#lines[@]} events to $filename\033[0m"
 }
 
 get_single_file_path() {
@@ -81,7 +81,7 @@ random_float() {
     echo "scale=2; $RANDOM/32767" | bc -l
 }
 
-# --- TEMPLATE DI LOG come funzioni ---
+# --- LOG TEMPLATES as functions ---
 template1() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
     echo "$t $h sshd[$proc]: Failed password for invalid user $u from ${ip} port ${port} ssh2"
@@ -147,33 +147,33 @@ portScanTemplate() {
     echo "$t $h sshd[$proc]: Connection attempt to port ${port} from ${ip} for user $u - no auth (possible port scan)"
 }
 
-# Array di funzioni template
+# Template functions array
 templates=(
     template1 template2 template3 template4 template5 
     template6 template7 template8 template9 template10 
     template11 template12
 )
 
-# --- INIZIALIZZAZIONE ---
+# --- INITIALIZATION ---
 ensure_logdir "$LogDir"
 singleFileIndex=1
 currentSingleFile="$LogDir/$SingleFileName"
 currentSingleFileLines=0
 
-# Verifica se bc è installato per random_float
+# Check if bc is installed for random_float
 if ! command -v bc &> /dev/null; then
-    echo "Errore: 'bc' non è installato. Installa con: sudo apt-get install bc"
+    echo "Error: 'bc' is not installed. Install with: sudo apt-get install bc"
     exit 1
 fi
 
-# --- LOOP PRINCIPALE ---
+# --- MAIN LOOP ---
 while true; do
     if [ -n "$MaxFiles" ] && [ "$counter" -ge "$MaxFiles" ]; then
-        echo -e "\033[33mGenerati $counter file. Termine.\033[0m"
+        echo -e "\033[33mGenerated $counter files. Terminating.\033[0m"
         break
     fi
 
-    # Decidi quanti eventi scrivere in questo file
+    # Decide how many events to write in this file
     eventsCount=$(random_range $MinEventsPerFile $MaxEventsPerFile)
     batchLines=()
 
@@ -181,7 +181,7 @@ while true; do
         hostname=$(random_element "HostnamePool[@]")
         user=$(random_element "users[@]")
         
-        # 30% probabilità di usare IPv6
+        # 30% probability to use IPv6
         if [ $((RANDOM % 10)) -gt 6 ]; then
             ip=$(random_element "ipv6s[@]")
         else
@@ -192,7 +192,7 @@ while true; do
         procId=$(random_range 1000 99999)
         timestamp=$(date +"%b %d %H:%M:%S")
 
-        # Possibile burst interno (simula piccolo port-scan)
+        # Possible internal burst (simulate small port-scan)
         if (( $(echo "$(random_float) < $BurstProbability" | bc -l) )); then
             burstCount=$(random_range 3 7)
             for ((b=0; b<burstCount; b++)); do
@@ -203,11 +203,11 @@ while true; do
             continue
         fi
 
-        # Scegli template normale
+        # Choose normal template
         template=$(random_element "templates[@]")
         line=$($template "$timestamp" "$hostname" "$procId" "$user" "$ip" "$port")
 
-        # Occasionalmente aggiungi righe correlate (20% probabilità)
+        # Occasionally add related lines (20% probability)
         if [ $((RANDOM % 10)) -gt 7 ]; then
             line2="$timestamp $hostname sshd[$procId]: pam_unix(sshd:auth): authentication failure; user=$user rhost=${ip}"
             batchLines+=("$line")
@@ -217,9 +217,9 @@ while true; do
         fi
     done
 
-    # SCRITTURA: single file o file separato per batch
+    # WRITING: single file or separate file per batch
     if [ "$UseSingleFile" = true ]; then
-        # Rotazione per linee
+        # Rotation by lines
         if [ "$RotateByMaxLines" = true ] && [ $((currentSingleFileLines + ${#batchLines[@]})) -gt $MaxLinesPerSingleFile ]; then
             rotatedName=$(get_single_file_path "$LogDir" "${SingleFileName%.*}" "$singleFileIndex")
             if [ -f "$currentSingleFile" ]; then
@@ -238,17 +238,17 @@ while true; do
             currentSingleFileLines=0
         fi
 
-        # Scrivi (append)
+        # Write (append)
         write_log_to_file "batchLines[@]" "$currentSingleFile"
         ((currentSingleFileLines += ${#batchLines[@]}))
     else
-        # file separato: uno per batch (più eventi dentro)
+        # separate file: one per batch (multiple events inside)
         ((counter++))
         fileName="$LogDir/attack-$(printf "%06d" $counter).log"
         write_log_to_file "batchLines[@]" "$fileName"
     fi
 
-    # Sleep casuale tra i batch/file
+    # Random sleep between batches/files
     sleepTime=$(random_range $MinSleep $MaxSleep)
     sleep $sleepTime
 done
