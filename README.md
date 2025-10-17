@@ -1,4 +1,4 @@
-# SIEM EKF
+# SIEM EKF
 
 ## Description
 
@@ -12,10 +12,7 @@ Everything runs in **Docker Compose** and includes a PowerShell script to simula
 - `simula_errori_v1.sh` → PowerShell random log generator for SSH events.
 - `simula_errori_v2.sh` → PowerShell random log generator for SSH events.
 
----
-
-## Requirements
-- Structure:
+## Structure
 ```
 /siem-ekf/
 ├── docker-compose.yml
@@ -25,8 +22,6 @@ Everything runs in **Docker Compose** and includes a PowerShell script to simula
 ├── simula_errori_v2.sh
 └── logs/
 ```
-
----
 
 ## Quick Start
 
@@ -45,7 +40,7 @@ docker ps
 Log in to Kibana:
 [http://localhost:5601](http://localhost:5601)
 
----
+
 
 ### Simulate SSH logs
 Open your terminal and run:
@@ -81,8 +76,6 @@ To completely shut down and delete containers:
 docker compose down
 ```
 
----
-
 ## Filebeat Indexes in Kibana
 
 Once the logs are sent, open Kibana →
@@ -93,19 +86,3 @@ From here, you can explore:
 - suspicious users (`user.keyword`),
 - source IP (`source.ip`),
 - failed attempts, ports, timestamps, etc.
-
----
-
-## Architecture (Architecture Overview)
-
-```
-[ simula_errori_v1.sh ] 
-↓ 
-[ logs/*.log ] 
-↓ 
-[Filebeat] 
-↓ 
-[ Elasticsearch ] 
-↓ 
-[ Kibana ]
-```
