@@ -9,8 +9,8 @@ Everything runs in **Docker Compose** and includes a PowerShell script to simula
 - `Elasticsearch` → search and indexing engine.
 - `Kibana` → dashboard and visualization interface.
 - `Filebeat` → lightweight log collector agent.
-- `simula_errori_v1.sh` → PowerShell random log generator for SSH events.
-- `simula_errori_v2.sh` → PowerShell random log generator for SSH events.
+- `simulate_errors_v1.sh` → PowerShell random log generator for SSH events.
+- `simulate_errors_v2.sh` → PowerShell random log generator for SSH events.
 
 ## Structure
 ```
@@ -18,8 +18,8 @@ Everything runs in **Docker Compose** and includes a PowerShell script to simula
 ├── docker-compose.yml
 ├── filebeat_tokenizer.yml
 ├── filebeat.yml
-├── simula_errori_v1.sh
-├── simula_errori_v2.sh
+├── simulate_errors_v1.sh
+├── simulate_errors_v2.sh
 └── logs/
 ```
 
@@ -47,11 +47,11 @@ Open your terminal and run:
 
 ```bash
 # Run the log simulation script
-bash ./simula_errori_v1.sh
+bash ./simulate_errors_v1.sh
 
 or
 
-bash ./simula_errori_v2.sh
+bash ./simulate_errors_v2.sh
 ```
 
 The script will generate log files in the `logs/` folder, which Filebeat will read and send to Elasticsearch.
