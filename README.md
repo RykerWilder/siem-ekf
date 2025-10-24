@@ -17,7 +17,6 @@ Everything runs in **Docker Compose** and includes a PowerShell script to simula
 /siem-ekf/
 ├── docker-compose.yml
 ├── filebeat_tokenizer.yml
-├── filebeat.yml
 ├── simulate_errors_v1.sh
 ├── simulate_errors_v2.sh
 └── logs/
