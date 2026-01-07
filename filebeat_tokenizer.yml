@@ -7,27 +7,8 @@ filebeat.inputs:
     fields:
       log_type: ssh_simulated
 
-processors:
-  - rename:
-      fields:
-        - from: "message"
-          to: "event.original"
-      ignore_missing: true
-      fail_on_error: false
-  - copy_fields:
-      fields:
-        - from: "event.original"
-          to: "message"
-        - from: "event.original"
-          to: "log_summary"
-      fail_on_error: false
-  - dissect:
-      tokenizer: "%{month} %{day} %{time} %{host} sshd[%{pid}]: %{status} user %{user} from %{ip} port %{port}"
-      field: "message"
-      target_prefix: "parsed"
-
-output.elasticsearch:
-  hosts: ["http://elasticsearch:9200"]
+output.logstash:
+  hosts: ["logstash:5044"]
 
 setup.kibana:
   host: "kibana:5601"

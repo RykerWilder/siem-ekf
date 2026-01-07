@@ -81,45 +81,45 @@ random_float() {
     echo "scale=2; $RANDOM/32767" | bc -l
 }
 
-# --- LOG TEMPLATES as functions ---
+# --- LOG TEMPLATES as functions (MODIFIED for IPv6 support) ---
 template1() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Failed password for invalid user $u from ${ip} port ${port} ssh2"
+    echo "$t $h sshd[$proc]: Failed password for invalid user $u from $ip port $port ssh2"
 }
 
 template2() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Failed password for $u from ${ip} port ${port} ssh2"
+    echo "$t $h sshd[$proc]: Failed password for $u from $ip port $port ssh2"
 }
 
 template3() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Accepted password for $u from ${ip} port ${port} ssh2"
+    echo "$t $h sshd[$proc]: Accepted password for $u from $ip port $port ssh2"
 }
 
 template4() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Connection closed by authenticating user $u ${ip} port ${port} [preauth]"
+    echo "$t $h sshd[$proc]: Connection closed by authenticating user $u $ip port $port [preauth]"
 }
 
 template5() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Disconnect from ${ip} port ${port}: Too many authentication failures"
+    echo "$t $h sshd[$proc]: Disconnect from $ip port $port: Too many authentication failures"
 }
 
 template6() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: error: maximum authentication attempts exceeded for $u from ${ip} port ${port} ssh2"
+    echo "$t $h sshd[$proc]: error: maximum authentication attempts exceeded for $u from $ip port $port ssh2"
 }
 
 template7() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Did not receive identification string from ${ip}"
+    echo "$t $h sshd[$proc]: Did not receive identification string from $ip"
 }
 
 template8() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: reverse mapping checking getaddrinfo for ${ip} failed - possible spoofing?"
+    echo "$t $h sshd[$proc]: reverse mapping checking getaddrinfo for $ip failed - possible spoofing?"
 }
 
 template9() {
@@ -129,22 +129,22 @@ template9() {
 
 template10() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=${ip}  user=$u"
+    echo "$t $h sshd[$proc]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=$ip  user=$u"
 }
 
 template11() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Invalid user $u from ${ip} port ${port}"
+    echo "$t $h sshd[$proc]: Invalid user $u from $ip port $port"
 }
 
 template12() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Failed publickey for $u from ${ip} port ${port} ssh2: RSA SHA256:abcdef..."
+    echo "$t $h sshd[$proc]: Failed publickey for $u from $ip port $port ssh2: RSA SHA256:abcdef..."
 }
 
 portScanTemplate() {
     local t=$1 h=$2 proc=$3 u=$4 ip=$5 port=$6
-    echo "$t $h sshd[$proc]: Connection attempt to port ${port} from ${ip} for user $u - no auth (possible port scan)"
+    echo "$t $h sshd[$proc]: Connection attempt to port $port from $ip for user $u - no auth (possible port scan)"
 }
 
 # Template functions array
@@ -209,7 +209,7 @@ while true; do
 
         # Occasionally add related lines (20% probability)
         if [ $((RANDOM % 10)) -gt 7 ]; then
-            line2="$timestamp $hostname sshd[$procId]: pam_unix(sshd:auth): authentication failure; user=$user rhost=${ip}"
+            line2="$timestamp $hostname sshd[$procId]: pam_unix(sshd:auth): authentication failure; user=$user rhost=$ip"
             batchLines+=("$line")
             batchLines+=("$line2")
         else
